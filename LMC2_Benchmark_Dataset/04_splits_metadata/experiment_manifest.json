@@ -1,0 +1,51 @@
+{
+  "project": "LMC2-IRB-Free-DeepLearning-Benchmark",
+  "sensor_model": "Leap Motion Controller 2 (Ultraleap Gemini V5+, FOV 160x160, 120Hz)",
+  "ethics_status": "IRB-Exempt (100% Public Benchmarks & Physics-Based Synthetic Ray-Casting)",
+  "random_seeds": [
+    42,
+    100,
+    2026,
+    777,
+    999
+  ],
+  "normalization": "Wrist-Centered + L2 Middle-MCP Palm Bone Scaling",
+  "scenarios": [
+    {
+      "Scenario_Level": "Level1_Clean",
+      "Num_Samples": 420,
+      "Sequence_Shape": "(60, 21, 3)",
+      "Occlusion_Dropout_Pct": 0.0,
+      "Unrecovered_Input_MPJPE_mm": 0.798,
+      "Num_Classes": 14,
+      "Max_Min_Class_Ratio": 2.1
+    },
+    {
+      "Scenario_Level": "Level2_Mild_Occlusion",
+      "Num_Samples": 420,
+      "Sequence_Shape": "(60, 21, 3)",
+      "Occlusion_Dropout_Pct": 19.51,
+      "Unrecovered_Input_MPJPE_mm": 5.145,
+      "Num_Classes": 14,
+      "Max_Min_Class_Ratio": 2.1
+    },
+    {
+      "Scenario_Level": "Level3_Severe_Temporal_Dropout",
+      "Num_Samples": 420,
+      "Sequence_Shape": "(60, 21, 3)",
+      "Occlusion_Dropout_Pct": 12.5,
+      "Unrecovered_Input_MPJPE_mm": 53.983,
+      "Num_Classes": 14,
+      "Max_Min_Class_Ratio": 2.1
+    },
+    {
+      "Scenario_Level": "Level4_LongTail_Imbalanced",
+      "Num_Samples": 129,
+      "Sequence_Shape": "(60, 21, 3)",
+      "Occlusion_Dropout_Pct": 25.12,
+      "Unrecovered_Input_MPJPE_mm": 100.227,
+      "Num_Classes": 14,
+      "Max_Min_Class_Ratio": 14.0
+    }
+  ]
+}

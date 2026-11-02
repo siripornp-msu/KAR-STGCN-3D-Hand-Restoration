@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Large raw archives (>100 MB GitHub limit protection)
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+LMC2_Benchmark_Dataset/01_raw_public/
+
+# OS generated files
+.DS_Store
+Thumbs.db

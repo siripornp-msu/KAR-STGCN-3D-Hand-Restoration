@@ -1,0 +1,9 @@
+Dataset,Scenario_Level,Num_Sequences,Tensor_Shape,Occlusion_Pct,Raw_Corrupted_MPJPE_mm,Num_Classes,Imbalance_Ratio,Seeds_Generated
+SHREC2017,Level1_Clean,10,"(60, 21, 3)",0.0,0.793,10,1.0,3
+SHREC2017,Level2_Mild_Occlusion,10,"(60, 21, 3)",19.06,5.074,10,1.0,3
+SHREC2017,Level3_Severe_Temporal_Dropout,10,"(60, 21, 3)",12.57,59.922,10,1.0,3
+SHREC2017,Level4_LongTail_Imbalanced,10,"(60, 21, 3)",25.16,113.023,10,1.0,3
+FPHA,Level1_Clean,8,"(60, 21, 3)",0.0,0.792,4,1.0,3
+FPHA,Level2_Mild_Occlusion,8,"(60, 21, 3)",18.99,5.034,4,1.0,3
+FPHA,Level3_Severe_Temporal_Dropout,8,"(60, 21, 3)",13.93,77.384,4,1.0,3
+FPHA,Level4_LongTail_Imbalanced,8,"(60, 21, 3)",25.09,134.158,4,1.0,3

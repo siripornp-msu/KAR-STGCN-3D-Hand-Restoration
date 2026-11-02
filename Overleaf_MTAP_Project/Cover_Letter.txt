@@ -1,0 +1,24 @@
+Dear Editor-in-Chief and Associate Editors,
+Multimedia Tools and Applications (Springer)
+
+Please find enclosed our original research manuscript entitled "Kinematic-Aware Spatio-Temporal Graph Convolutional Network with Visibility-Guarded L2 Bone Normalization for 3D Hand Skeletal Restoration and Gesture Recognition under Simulated Optical Dropouts" by Siriporn Noiumkar, which we are submitting for consideration for publication in Multimedia Tools and Applications.
+
+Markerless infrared stereo hand trackers (such as the Ultraleap Leap Motion Controller and Leap Motion Controller 2) are widely deployed in interactive multimedia, virtual reality, and 3D character animation. However, single-viewpoint optical sensors suffer from two persistent physical bottlenecks: (i) finger self-occlusion and whole-hand temporal burst dropouts caused by line-of-sight obstruction, and (ii) anatomical bone-ratio and camera-distance variations that induce scale-based classification shortcuts and unnatural bone stretching during 3D character rig retargeting.
+
+In this manuscript, we propose a unified mathematical and software framework that directly addresses these challenges:
+1. Visibility-Guarded Wrist-Centered L2 Palm-Bone Normalization (Offline & Causal Streaming): We align heterogeneous 3D hand benchmarks (SHREC'17, FPHA, and real Leap Motion LMDHG trajectories) into a canonical 21-joint topology and normalize coordinates using a visibility-masked median palm bone reference, preventing catastrophic division-by-zero explosions during reference-joint dropouts and eliminating camera-distance shortcuts.
+2. Dilated KAR-STGCN Architecture: We integrate a two-stage dilated temporal bridge (25-frame receptive field) with anatomical graph convolutions, bone-length consistency regularization, and dual-stream position-velocity encoding in a lightweight 0.42M-parameter model (0.44 ms GPU forward latency).
+3. Cross-Paradigm Benchmarking & Subject-Level Statistical Rigor: We evaluate KAR-STGCN across four algorithmic paradigms—industry VR filters (1€ Filter, RTS Kalman Smoother), time-series imputers (BRITS, SAITS), two-stage hybrids (SAITS+CTR-GCN), and skeleton backbones (ST-GCN, 2s-AGCN, DD-Net, MS-G3D, CTR-GCN, BlockGCN)—using subject-level Welch's ANOVA and Holm-Bonferroni post-hoc tests (p_Holm < 0.001, Cohen's d >= 2.15).
+4. KAR-Bench Studio & 3D Character Retargeting Suite: We release an open-source multimedia diagnostic and Biovision Hierarchy (.bvh) animation export suite (https://github.com/siripornp-msu/KAR-STGCN-3D-Hand-Restoration) that reduces anatomical joint-angle violations in 3D character retargeting from 31.40% (1€ Filter) and 11.65% (BlockGCN) to 1.12%.
+
+This work has not been published previously, is not under consideration for publication elsewhere, and has been approved by the author. This research project was financially supported by the Faculty of Informatics, Mahasarakham University. The author declares no conflict of interest.
+
+Thank you very much for your time and consideration.
+
+Sincerely,
+
+Siriporn Noiumkar
+Department of Creative Media, Faculty of Informatics
+Mahasarakham University
+Kantarawichai District, Maha Sarakham 44150, Thailand
+Email: siriporn.p@msu.ac.th

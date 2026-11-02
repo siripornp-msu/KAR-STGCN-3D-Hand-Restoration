@@ -1,0 +1,5 @@
+Scenario_Level,Num_Samples,Sequence_Shape,Occlusion_Dropout_Pct,Unrecovered_Input_MPJPE_mm,Num_Classes,Max_Min_Class_Ratio
+Level1_Clean,420,"(60, 21, 3)",0.0,0.798,14,2.1
+Level2_Mild_Occlusion,420,"(60, 21, 3)",19.51,5.145,14,2.1
+Level3_Severe_Temporal_Dropout,420,"(60, 21, 3)",12.5,53.983,14,2.1
+Level4_LongTail_Imbalanced,129,"(60, 21, 3)",25.12,100.227,14,14.0

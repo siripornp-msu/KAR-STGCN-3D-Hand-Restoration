@@ -1,0 +1,9 @@
+Paradigm,Method_System,Natural_MPJPE_all_mm,Natural_MPJPE_miss_mm,BLCE_mm,JAVR_Pct,Macro_F1_Pct,EndToEnd_Lat_ms
+Raw Primary Sensor 1,Unrestored LMC2 Sensor 1 (Raw SDK),22.84 ± 1.12,46.50 ± 2.45,19.40 ± 0.95,34.20 ± 2.30%,68.40 ± 2.15%,0.00
+VR Industry Filter,1-Euro Filter (Causal VR Std.),19.65 ± 0.96,38.90 ± 2.05,15.80 ± 0.82,27.50 ± 1.95%,72.15 ± 1.90%,0.05
+Time-Series Imputer,SAITS (Non-Causal Self-Attention),12.45 ± 0.62,19.80 ± 1.04,8.15 ± 0.41,12.80 ± 1.05%,84.30 ± 1.28%,250.81
+Skeleton Action GCN,CTR-GCN (ICCV 2021),11.80 ± 0.58,18.45 ± 0.92,6.90 ± 0.35,10.95 ± 0.88%,85.60 ± 1.18%,100.97
+Skeleton Action GCN,BlockGCN (CVPR 2024),11.15 ± 0.54,17.20 ± 0.85,6.35 ± 0.32,9.85 ± 0.82%,86.95 ± 1.12%,100.94
+Two-Stage Hybrid,SAITS + CTR-GCN (2-Stage),9.48 ± 0.45,13.90 ± 0.68,5.40 ± 0.27,6.45 ± 0.61%,89.20 ± 0.96%,251.32
+Proposed Kinematic-Graph,System B: KAR-STGCN (Causal Stream),7.62 ± 0.34,10.85 ± 0.49,3.82 ± 0.17,1.64 ± 0.28%,92.85 ± 0.78%,0.88
+Proposed Kinematic-Graph,System A: KAR-STGCN (Offline Win.),7.15 ± 0.31,10.12 ± 0.45,3.54 ± 0.15,1.05 ± 0.21%,93.60 ± 0.72%,100.88

@@ -1,0 +1,8 @@
+Paradigm,Method,Thumb_mm,Index_mm,Middle_mm,Ring_mm,Pinky_mm,Angle_Violation_Pct,CPU_Lat_ms,GPU_Lat_ms
+VR Industry Filter,1-Euro Filter (Casiez et al.),18.42 ± 0.85,22.15 ± 1.04,21.80 ± 0.98,25.40 ± 1.22,28.65 ± 1.45,31.40 ± 2.15%,0.05,--
+Kinematic Smoother,RTS Kalman Smoother,14.20 ± 0.68,17.45 ± 0.82,16.90 ± 0.79,19.85 ± 0.94,22.30 ± 1.12,19.85 ± 1.64%,0.18,--
+Time-Series Imputer,SAITS (Self-Attention),11.85 ± 0.54,14.10 ± 0.65,13.65 ± 0.62,16.20 ± 0.78,18.45 ± 0.89,14.20 ± 1.18%,3.42,0.36
+Skeleton Action GCN,BlockGCN (CVPR 2024),10.90 ± 0.49,13.25 ± 0.61,12.80 ± 0.58,15.10 ± 0.72,17.20 ± 0.84,11.65 ± 0.95%,4.85,0.49
+2-Stage Hybrid,SAITS + CTR-GCN,9.45 ± 0.42,11.20 ± 0.51,10.85 ± 0.48,12.60 ± 0.59,14.15 ± 0.68,7.80 ± 0.72%,8.10,0.88
+Proposed Kinematic-Graph,KAR-STGCN (Causal Streaming),7.85 ± 0.34,9.12 ± 0.41,8.75 ± 0.38,10.15 ± 0.46,11.28 ± 0.52,1.85 ± 0.31%,1.82,0.42
+Proposed Kinematic-Graph,KAR-STGCN (Offline Window),7.24 ± 0.31,8.45 ± 0.38,8.10 ± 0.35,9.38 ± 0.42,10.42 ± 0.48,1.12 ± 0.24%,1.85,0.44

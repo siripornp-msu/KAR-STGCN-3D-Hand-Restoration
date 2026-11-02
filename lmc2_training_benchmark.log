@@ -1,0 +1,252 @@
+2026-11-02 14:40:00 | INFO    | ========================================================================
+2026-11-02 14:40:00 | INFO    | เริ่มต้นเทรนและประเมินผล Multi-Seed Benchmark | อุปกรณ์: cuda (NVIDIA GeForce RTX 2050)
+2026-11-02 14:40:00 | INFO    | Datasets: ['SHREC2017', 'FPHA'] | Levels: [1, 2, 3, 4] | Seeds: [42, 100, 2026, 777, 999] | Epochs: 15
+2026-11-02 14:40:00 | INFO    | ========================================================================
+2026-11-02 14:40:00 | INFO    | ------------------------------------------------------------------------
+2026-11-02 14:40:00 | INFO    | กำลังประมวลผล Dataset: [SHREC2017] | Scenario: [Level1_Clean]
+2026-11-02 14:42:57 | INFO    | ========================================================================
+2026-11-02 14:42:57 | INFO    | เริ่มต้นเทรนและประเมินผล Multi-Seed Benchmark (v1.1) | อุปกรณ์: cuda (NVIDIA GeForce RTX 2050)
+2026-11-02 14:42:57 | INFO    | Datasets: ['SHREC2017', 'FPHA'] | Levels: [1, 2, 3, 4] | Seeds: [42, 100, 2026, 777, 999] | Epochs: 15
+2026-11-02 14:42:57 | INFO    | ========================================================================
+2026-11-02 14:42:57 | INFO    | ------------------------------------------------------------------------
+2026-11-02 14:42:57 | INFO    | กำลังประมวลผล Dataset: [SHREC2017] | Scenario: [Level1_Clean]
+2026-11-02 14:43:05 | INFO    |   [Seed   42 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 2.45 mm | PA-MPJPE: 72.78 mm | BLCE: 1.75 mm | Macro-F1: 0.0%
+2026-11-02 14:43:07 | INFO    |   [Seed  100 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 2.52 mm | PA-MPJPE: 71.61 mm | BLCE: 1.70 mm | Macro-F1: 0.0%
+2026-11-02 14:43:10 | INFO    |   [Seed 2026 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 2.66 mm | PA-MPJPE: 69.97 mm | BLCE: 1.93 mm | Macro-F1: 0.0%
+2026-11-02 14:43:13 | INFO    |   [Seed  777 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 2.53 mm | PA-MPJPE: 69.11 mm | BLCE: 1.98 mm | Macro-F1: 0.0%
+2026-11-02 14:43:16 | INFO    |   [Seed  999 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 2.62 mm | PA-MPJPE: 68.92 mm | BLCE: 1.94 mm | Macro-F1: 0.0%
+2026-11-02 14:43:16 | INFO    | ------------------------------------------------------------------------
+2026-11-02 14:43:16 | INFO    | กำลังประมวลผล Dataset: [SHREC2017] | Scenario: [Level2_Mild_Occlusion]
+2026-11-02 14:43:19 | INFO    |   [Seed   42 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 7.50 mm | PA-MPJPE: 72.79 mm | BLCE: 5.33 mm | Macro-F1: 4.8%
+2026-11-02 14:43:22 | INFO    |   [Seed  100 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 7.50 mm | PA-MPJPE: 71.62 mm | BLCE: 5.04 mm | Macro-F1: 0.0%
+2026-11-02 14:43:25 | INFO    |   [Seed 2026 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 8.31 mm | PA-MPJPE: 69.97 mm | BLCE: 5.97 mm | Macro-F1: 0.0%
+2026-11-02 14:43:27 | INFO    |   [Seed  777 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 8.80 mm | PA-MPJPE: 69.12 mm | BLCE: 6.59 mm | Macro-F1: 0.0%
+2026-11-02 14:43:31 | INFO    |   [Seed  999 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 8.53 mm | PA-MPJPE: 68.92 mm | BLCE: 6.44 mm | Macro-F1: 0.0%
+2026-11-02 14:43:31 | INFO    | ------------------------------------------------------------------------
+2026-11-02 14:43:31 | INFO    | กำลังประมวลผล Dataset: [SHREC2017] | Scenario: [Level3_Severe_Temporal_Dropout]
+2026-11-02 14:43:34 | INFO    |   [Seed   42 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 18.23 mm | PA-MPJPE: 72.81 mm | BLCE: 14.35 mm | Macro-F1: 0.0%
+2026-11-02 14:43:37 | INFO    |   [Seed  100 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 18.26 mm | PA-MPJPE: 71.64 mm | BLCE: 13.40 mm | Macro-F1: 7.1%
+2026-11-02 14:43:39 | INFO    |   [Seed 2026 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 17.63 mm | PA-MPJPE: 70.00 mm | BLCE: 14.30 mm | Macro-F1: 0.0%
+2026-11-02 14:43:42 | INFO    |   [Seed  777 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 19.14 mm | PA-MPJPE: 69.14 mm | BLCE: 17.00 mm | Macro-F1: 0.0%
+2026-11-02 14:43:45 | INFO    |   [Seed  999 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 17.96 mm | PA-MPJPE: 68.94 mm | BLCE: 15.22 mm | Macro-F1: 0.0%
+2026-11-02 14:43:45 | INFO    | ------------------------------------------------------------------------
+2026-11-02 14:43:45 | INFO    | กำลังประมวลผล Dataset: [SHREC2017] | Scenario: [Level4_LongTail_Imbalanced]
+2026-11-02 14:43:46 | INFO    |   [Seed   42 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 159121024.00 mm | PA-MPJPE: 76.75 mm | BLCE: 210027504.00 mm | Macro-F1: 4.8%
+2026-11-02 14:43:48 | INFO    |   [Seed  100 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 88361904.00 mm | PA-MPJPE: 69.12 mm | BLCE: 126165856.00 mm | Macro-F1: 0.0%
+2026-11-02 14:43:50 | INFO    |   [Seed 2026 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 134195184.00 mm | PA-MPJPE: 70.36 mm | BLCE: 192468016.00 mm | Macro-F1: 4.8%
+2026-11-02 14:43:51 | INFO    |   [Seed  777 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 48889420.00 mm | PA-MPJPE: 67.61 mm | BLCE: 61903448.00 mm | Macro-F1: 0.0%
+2026-11-02 14:43:52 | INFO    |   [Seed  999 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 104150840.00 mm | PA-MPJPE: 70.77 mm | BLCE: 150171360.00 mm | Macro-F1: 4.8%
+2026-11-02 14:43:52 | INFO    | ------------------------------------------------------------------------
+2026-11-02 14:43:52 | INFO    | กำลังประมวลผล Dataset: [FPHA] | Scenario: [Level1_Clean]
+2026-11-02 14:43:54 | INFO    |   [Seed   42 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 6.40 mm | PA-MPJPE: 113.83 mm | BLCE: 3.17 mm | Macro-F1: 11.1%
+2026-11-02 14:43:56 | INFO    |   [Seed  100 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 6.65 mm | PA-MPJPE: 116.02 mm | BLCE: 2.87 mm | Macro-F1: 6.7%
+2026-11-02 14:43:59 | INFO    |   [Seed 2026 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 5.71 mm | PA-MPJPE: 114.04 mm | BLCE: 2.40 mm | Macro-F1: 3.7%
+2026-11-02 14:44:01 | INFO    |   [Seed  777 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 5.89 mm | PA-MPJPE: 115.20 mm | BLCE: 2.42 mm | Macro-F1: 0.0%
+2026-11-02 14:44:04 | INFO    |   [Seed  999 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 5.61 mm | PA-MPJPE: 114.56 mm | BLCE: 2.47 mm | Macro-F1: 0.0%
+2026-11-02 14:44:04 | INFO    | ------------------------------------------------------------------------
+2026-11-02 14:44:04 | INFO    | กำลังประมวลผล Dataset: [FPHA] | Scenario: [Level2_Mild_Occlusion]
+2026-11-02 14:44:06 | INFO    |   [Seed   42 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 20.56 mm | PA-MPJPE: 113.83 mm | BLCE: 11.42 mm | Macro-F1: 0.0%
+2026-11-02 14:44:08 | INFO    |   [Seed  100 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 19.93 mm | PA-MPJPE: 116.02 mm | BLCE: 10.89 mm | Macro-F1: 25.0%
+2026-11-02 14:44:10 | INFO    |   [Seed 2026 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 18.62 mm | PA-MPJPE: 114.05 mm | BLCE: 9.11 mm | Macro-F1: 5.6%
+2026-11-02 14:44:12 | INFO    |   [Seed  777 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 18.13 mm | PA-MPJPE: 115.20 mm | BLCE: 9.06 mm | Macro-F1: 23.3%
+2026-11-02 14:44:14 | INFO    |   [Seed  999 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 22.96 mm | PA-MPJPE: 114.57 mm | BLCE: 9.20 mm | Macro-F1: 17.8%
+2026-11-02 14:44:14 | INFO    | ------------------------------------------------------------------------
+2026-11-02 14:44:14 | INFO    | กำลังประมวลผล Dataset: [FPHA] | Scenario: [Level3_Severe_Temporal_Dropout]
+2026-11-02 14:44:17 | INFO    |   [Seed   42 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 38.13 mm | PA-MPJPE: 113.85 mm | BLCE: 21.90 mm | Macro-F1: 0.0%
+2026-11-02 14:44:19 | INFO    |   [Seed  100 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 41.18 mm | PA-MPJPE: 116.04 mm | BLCE: 24.73 mm | Macro-F1: 11.1%
+2026-11-02 14:44:21 | INFO    |   [Seed 2026 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 38.78 mm | PA-MPJPE: 114.07 mm | BLCE: 20.87 mm | Macro-F1: 8.3%
+2026-11-02 14:44:23 | INFO    |   [Seed  777 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 44.05 mm | PA-MPJPE: 115.23 mm | BLCE: 26.06 mm | Macro-F1: 38.9%
+2026-11-02 14:44:25 | INFO    |   [Seed  999 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 40.50 mm | PA-MPJPE: 114.59 mm | BLCE: 22.04 mm | Macro-F1: 5.6%
+2026-11-02 14:44:25 | INFO    | ------------------------------------------------------------------------
+2026-11-02 14:44:25 | INFO    | กำลังประมวลผล Dataset: [FPHA] | Scenario: [Level4_LongTail_Imbalanced]
+2026-11-02 14:44:27 | INFO    |   [Seed   42 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 90455496.00 mm | PA-MPJPE: 115.02 mm | BLCE: 131996648.00 mm | Macro-F1: 11.1%
+2026-11-02 14:44:28 | INFO    |   [Seed  100 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 38644004.00 mm | PA-MPJPE: 115.05 mm | BLCE: 49593296.00 mm | Macro-F1: 0.0%
+2026-11-02 14:44:29 | INFO    |   [Seed 2026 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 17449726.00 mm | PA-MPJPE: 116.38 mm | BLCE: 25574214.00 mm | Macro-F1: 6.7%
+2026-11-02 14:44:31 | INFO    |   [Seed  777 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 21410742.00 mm | PA-MPJPE: 115.79 mm | BLCE: 29598178.00 mm | Macro-F1: 11.1%
+2026-11-02 14:44:33 | INFO    |   [Seed  999 เสร็จสิ้น] Proposed_KAR_STGCN -> MPJPE: 115477840.00 mm | PA-MPJPE: 111.96 mm | BLCE: 154217808.00 mm | Macro-F1: 0.0%
+2026-11-02 14:44:33 | INFO    | บันทึกตาราง LaTeX สำเร็จที่: E:\TeachPree\Research_Academic_Services\LMC2_Data_Collection_and_Simulation_Scripts\LMC2_Benchmark_Dataset\05_latex_outputs\table_lmc2_multiseed_results.tex
+2026-11-02 14:44:33 | INFO    | ========================================================================
+2026-11-02 14:44:33 | INFO    | เทรนและประเมินผลครบทุก Seed เสร็จสมบูรณ์ในเวลา 96.33 วินาที!
+2026-11-02 14:44:33 | INFO    | บันทึกผลดิบทุก Seed ไว้ที่   : E:\TeachPree\Research_Academic_Services\LMC2_Data_Collection_and_Simulation_Scripts\LMC2_Benchmark_Dataset\04_splits_metadata\benchmark_all_seeds_raw_results.csv
+2026-11-02 14:44:33 | INFO    | บันทึกตารางสรุป Mean±SD ไว้ที่: E:\TeachPree\Research_Academic_Services\LMC2_Data_Collection_and_Simulation_Scripts\LMC2_Benchmark_Dataset\04_splits_metadata\benchmark_multiseed_summary.csv
+2026-11-02 14:44:33 | INFO    | ========================================================================
+2026-11-02 14:51:07 | INFO    | ========================================================================
+2026-11-02 14:51:07 | INFO    | เริ่มต้นเทรนและประเมินผล Multi-Seed Benchmark (v1.2) | อุปกรณ์: cuda (NVIDIA GeForce RTX 2050)
+2026-11-02 14:51:07 | INFO    | ========================================================================
+2026-11-02 14:51:07 | INFO    | ------------------------------------------------------------------------
+2026-11-02 14:51:07 | INFO    | กำลังประมวลผล Dataset: [SHREC2017] | Scenario: [Level1_Clean]
+2026-11-02 14:51:16 | INFO    |   [Seed   42] Proposed_KAR_STGCN -> MPJPE:  2.06 mm | PA-MPJPE:  1.24 mm | BLCE:  1.61 mm | Macro-F1:   7.1%
+2026-11-02 14:51:20 | INFO    |   [Seed  100] Proposed_KAR_STGCN -> MPJPE:  2.23 mm | PA-MPJPE:  1.23 mm | BLCE:  1.73 mm | Macro-F1:   7.1%
+2026-11-02 14:51:25 | INFO    |   [Seed 2026] Proposed_KAR_STGCN -> MPJPE:  2.02 mm | PA-MPJPE:  1.24 mm | BLCE:  1.49 mm | Macro-F1:  11.9%
+2026-11-02 14:51:30 | INFO    |   [Seed  777] Proposed_KAR_STGCN -> MPJPE:  4.01 mm | PA-MPJPE:  1.24 mm | BLCE:  3.72 mm | Macro-F1:   0.0%
+2026-11-02 14:51:34 | INFO    |   [Seed  999] Proposed_KAR_STGCN -> MPJPE:  2.34 mm | PA-MPJPE:  1.23 mm | BLCE:  1.88 mm | Macro-F1:   7.1%
+2026-11-02 14:51:34 | INFO    | ------------------------------------------------------------------------
+2026-11-02 14:51:34 | INFO    | กำลังประมวลผล Dataset: [SHREC2017] | Scenario: [Level2_Mild_Occlusion]
+2026-11-02 14:51:39 | INFO    |   [Seed   42] Proposed_KAR_STGCN -> MPJPE:  5.72 mm | PA-MPJPE:  3.66 mm | BLCE:  4.48 mm | Macro-F1:   7.1%
+2026-11-02 14:51:44 | INFO    |   [Seed  100] Proposed_KAR_STGCN -> MPJPE:  5.97 mm | PA-MPJPE:  3.65 mm | BLCE:  4.54 mm | Macro-F1:   7.1%
+2026-11-02 14:51:49 | INFO    |   [Seed 2026] Proposed_KAR_STGCN -> MPJPE:  5.58 mm | PA-MPJPE:  3.59 mm | BLCE:  4.14 mm | Macro-F1:  11.9%
+2026-11-02 14:51:53 | INFO    |   [Seed  777] Proposed_KAR_STGCN -> MPJPE:  8.28 mm | PA-MPJPE:  3.78 mm | BLCE:  7.20 mm | Macro-F1:   0.0%
+2026-11-02 14:51:59 | INFO    |   [Seed  999] Proposed_KAR_STGCN -> MPJPE:  6.22 mm | PA-MPJPE:  3.67 mm | BLCE:  4.88 mm | Macro-F1:   7.1%
+2026-11-02 14:51:59 | INFO    | ------------------------------------------------------------------------
+2026-11-02 14:51:59 | INFO    | กำลังประมวลผล Dataset: [SHREC2017] | Scenario: [Level3_Severe_Temporal_Dropout]
+2026-11-02 14:52:03 | INFO    |   [Seed   42] Proposed_KAR_STGCN -> MPJPE: 11.79 mm | PA-MPJPE:  7.23 mm | BLCE:  9.50 mm | Macro-F1:   7.1%
+2026-11-02 14:52:08 | INFO    |   [Seed  100] Proposed_KAR_STGCN -> MPJPE: 13.47 mm | PA-MPJPE:  8.89 mm | BLCE: 11.15 mm | Macro-F1:   0.0%
+2026-11-02 14:52:13 | INFO    |   [Seed 2026] Proposed_KAR_STGCN -> MPJPE: 12.79 mm | PA-MPJPE:  8.01 mm | BLCE: 10.53 mm | Macro-F1:  10.0%
+2026-11-02 14:52:18 | INFO    |   [Seed  777] Proposed_KAR_STGCN -> MPJPE: 13.29 mm | PA-MPJPE:  7.63 mm | BLCE: 11.16 mm | Macro-F1:   4.8%
+2026-11-02 14:52:22 | INFO    |   [Seed  999] Proposed_KAR_STGCN -> MPJPE: 12.62 mm | PA-MPJPE:  7.46 mm | BLCE: 10.36 mm | Macro-F1:  14.3%
+2026-11-02 14:52:22 | INFO    | ------------------------------------------------------------------------
+2026-11-02 14:52:22 | INFO    | กำลังประมวลผล Dataset: [SHREC2017] | Scenario: [Level4_LongTail_Imbalanced]
+2026-11-02 14:52:25 | INFO    |   [Seed   42] Proposed_KAR_STGCN -> MPJPE: 73305600.00 mm | PA-MPJPE: 26.31 mm | BLCE: 104239480.00 mm | Macro-F1:  81.0%
+2026-11-02 14:52:28 | INFO    |   [Seed  100] Proposed_KAR_STGCN -> MPJPE: 93477976.00 mm | PA-MPJPE: 23.66 mm | BLCE: 134600736.00 mm | Macro-F1:  82.1%
+2026-11-02 14:52:30 | INFO    |   [Seed 2026] Proposed_KAR_STGCN -> MPJPE: 107450912.00 mm | PA-MPJPE: 28.56 mm | BLCE: 152773712.00 mm | Macro-F1:  72.6%
+2026-11-02 14:52:33 | INFO    |   [Seed  777] Proposed_KAR_STGCN -> MPJPE: 77604376.00 mm | PA-MPJPE: 25.83 mm | BLCE: 104274032.00 mm | Macro-F1:  81.0%
+2026-11-02 14:52:35 | INFO    |   [Seed  999] Proposed_KAR_STGCN -> MPJPE: 87242144.00 mm | PA-MPJPE: 25.27 mm | BLCE: 124071392.00 mm | Macro-F1:  82.1%
+2026-11-02 14:52:35 | INFO    | ------------------------------------------------------------------------
+2026-11-02 14:52:35 | INFO    | กำลังประมวลผล Dataset: [FPHA] | Scenario: [Level1_Clean]
+2026-11-02 14:52:38 | INFO    |   [Seed   42] Proposed_KAR_STGCN -> MPJPE:  5.45 mm | PA-MPJPE:  1.24 mm | BLCE:  2.44 mm | Macro-F1:   0.0%
+2026-11-02 14:52:42 | INFO    |   [Seed  100] Proposed_KAR_STGCN -> MPJPE:  5.55 mm | PA-MPJPE:  1.29 mm | BLCE:  2.45 mm | Macro-F1:  16.7%
+2026-11-02 14:52:46 | INFO    |   [Seed 2026] Proposed_KAR_STGCN -> MPJPE:  5.45 mm | PA-MPJPE:  1.21 mm | BLCE:  2.43 mm | Macro-F1:  17.8%
+2026-11-02 14:52:50 | INFO    |   [Seed  777] Proposed_KAR_STGCN -> MPJPE:  5.38 mm | PA-MPJPE:  1.20 mm | BLCE:  2.37 mm | Macro-F1:   4.8%
+2026-11-02 14:52:53 | INFO    |   [Seed  999] Proposed_KAR_STGCN -> MPJPE:  5.22 mm | PA-MPJPE:  1.28 mm | BLCE:  2.28 mm | Macro-F1:  11.1%
+2026-11-02 14:52:53 | INFO    | ------------------------------------------------------------------------
+2026-11-02 14:52:53 | INFO    | กำลังประมวลผล Dataset: [FPHA] | Scenario: [Level2_Mild_Occlusion]
+2026-11-02 14:52:57 | INFO    |   [Seed   42] Proposed_KAR_STGCN -> MPJPE: 15.20 mm | PA-MPJPE:  5.09 mm | BLCE:  7.20 mm | Macro-F1:   0.0%
+2026-11-02 14:53:01 | INFO    |   [Seed  100] Proposed_KAR_STGCN -> MPJPE: 15.61 mm | PA-MPJPE:  5.14 mm | BLCE:  7.23 mm | Macro-F1:  11.1%
+2026-11-02 14:53:05 | INFO    |   [Seed 2026] Proposed_KAR_STGCN -> MPJPE: 15.60 mm | PA-MPJPE:  5.34 mm | BLCE:  7.27 mm | Macro-F1:   5.6%
+2026-11-02 14:53:08 | INFO    |   [Seed  777] Proposed_KAR_STGCN -> MPJPE: 14.98 mm | PA-MPJPE:  4.96 mm | BLCE:  7.03 mm | Macro-F1:   4.8%
+2026-11-02 14:53:11 | INFO    |   [Seed  999] Proposed_KAR_STGCN -> MPJPE: 15.24 mm | PA-MPJPE:  5.88 mm | BLCE:  7.04 mm | Macro-F1:   8.3%
+2026-11-02 14:53:11 | INFO    | ------------------------------------------------------------------------
+2026-11-02 14:53:11 | INFO    | กำลังประมวลผล Dataset: [FPHA] | Scenario: [Level3_Severe_Temporal_Dropout]
+2026-11-02 14:53:15 | INFO    |   [Seed   42] Proposed_KAR_STGCN -> MPJPE: 26.05 mm | PA-MPJPE: 10.38 mm | BLCE: 12.59 mm | Macro-F1:   0.0%
+2026-11-02 14:53:19 | INFO    |   [Seed  100] Proposed_KAR_STGCN -> MPJPE: 29.96 mm | PA-MPJPE: 13.43 mm | BLCE: 15.00 mm | Macro-F1:  16.7%
+2026-11-02 14:53:22 | INFO    |   [Seed 2026] Proposed_KAR_STGCN -> MPJPE: 28.28 mm | PA-MPJPE: 11.88 mm | BLCE: 15.21 mm | Macro-F1:  23.3%
+2026-11-02 14:53:25 | INFO    |   [Seed  777] Proposed_KAR_STGCN -> MPJPE: 31.89 mm | PA-MPJPE: 15.35 mm | BLCE: 16.12 mm | Macro-F1:  27.8%
+2026-11-02 14:53:29 | INFO    |   [Seed  999] Proposed_KAR_STGCN -> MPJPE: 24.32 mm | PA-MPJPE: 10.64 mm | BLCE: 12.27 mm | Macro-F1:  19.4%
+2026-11-02 14:53:29 | INFO    | ------------------------------------------------------------------------
+2026-11-02 14:53:29 | INFO    | กำลังประมวลผล Dataset: [FPHA] | Scenario: [Level4_LongTail_Imbalanced]
+2026-11-02 14:53:32 | INFO    |   [Seed   42] Proposed_KAR_STGCN -> MPJPE: 73325832.00 mm | PA-MPJPE: 51.06 mm | BLCE: 102413816.00 mm | Macro-F1:  25.0%
+2026-11-02 14:53:34 | INFO    |   [Seed  100] Proposed_KAR_STGCN -> MPJPE: 127019240.00 mm | PA-MPJPE: 66.94 mm | BLCE: 182020880.00 mm | Macro-F1:  23.3%
+2026-11-02 14:53:37 | INFO    |   [Seed 2026] Proposed_KAR_STGCN -> MPJPE: 83960032.00 mm | PA-MPJPE: 60.57 mm | BLCE: 117510184.00 mm | Macro-F1:  25.0%
+2026-11-02 14:53:39 | INFO    |   [Seed  777] Proposed_KAR_STGCN -> MPJPE: 89043280.00 mm | PA-MPJPE: 64.25 mm | BLCE: 123997624.00 mm | Macro-F1:  23.3%
+2026-11-02 14:53:41 | INFO    |   [Seed  999] Proposed_KAR_STGCN -> MPJPE: 115747080.00 mm | PA-MPJPE: 55.61 mm | BLCE: 158227376.00 mm | Macro-F1:  16.7%
+2026-11-02 14:53:41 | INFO    | บันทึกตาราง LaTeX สำเร็จที่: E:\TeachPree\Research_Academic_Services\LMC2_Data_Collection_and_Simulation_Scripts\LMC2_Benchmark_Dataset\05_latex_outputs\table_lmc2_multiseed_results.tex
+2026-11-02 14:56:37 | INFO    | ========================================================================
+2026-11-02 14:56:37 | INFO    | เริ่มต้นเทรนและประเมินผล Multi-Seed Benchmark (v1.2) | อุปกรณ์: cuda (NVIDIA GeForce RTX 2050)
+2026-11-02 14:56:37 | INFO    | ========================================================================
+2026-11-02 14:56:37 | INFO    | ------------------------------------------------------------------------
+2026-11-02 14:56:37 | INFO    | กำลังประมวลผล Dataset: [SHREC2017] | Scenario: [Level1_Clean]
+2026-11-02 14:56:49 | INFO    |   [Seed   42] Proposed_KAR_STGCN -> MPJPE:  1.84 mm | PA-MPJPE:  1.21 mm | BLCE:  0.99 mm | Macro-F1: 100.0%
+2026-11-02 14:56:58 | INFO    |   [Seed  100] Proposed_KAR_STGCN -> MPJPE:  1.88 mm | PA-MPJPE:  1.21 mm | BLCE:  1.01 mm | Macro-F1:  54.8%
+2026-11-02 14:57:06 | INFO    |   [Seed 2026] Proposed_KAR_STGCN -> MPJPE:  1.85 mm | PA-MPJPE:  1.21 mm | BLCE:  1.00 mm | Macro-F1: 100.0%
+2026-11-02 14:57:14 | INFO    |   [Seed  777] Proposed_KAR_STGCN -> MPJPE:  1.88 mm | PA-MPJPE:  1.21 mm | BLCE:  1.02 mm | Macro-F1: 100.0%
+2026-11-02 14:57:22 | INFO    |   [Seed  999] Proposed_KAR_STGCN -> MPJPE:  1.83 mm | PA-MPJPE:  1.21 mm | BLCE:  1.00 mm | Macro-F1: 100.0%
+2026-11-02 14:57:22 | INFO    | ------------------------------------------------------------------------
+2026-11-02 14:57:22 | INFO    | กำลังประมวลผล Dataset: [SHREC2017] | Scenario: [Level2_Mild_Occlusion]
+2026-11-02 14:57:31 | INFO    |   [Seed   42] Proposed_KAR_STGCN -> MPJPE:  5.17 mm | PA-MPJPE:  3.74 mm | BLCE:  2.77 mm | Macro-F1: 100.0%
+2026-11-02 14:57:39 | INFO    |   [Seed  100] Proposed_KAR_STGCN -> MPJPE:  5.25 mm | PA-MPJPE:  3.73 mm | BLCE:  2.80 mm | Macro-F1: 100.0%
+2026-11-02 14:57:48 | INFO    |   [Seed 2026] Proposed_KAR_STGCN -> MPJPE:  5.67 mm | PA-MPJPE:  4.07 mm | BLCE:  2.92 mm | Macro-F1: 100.0%
+2026-11-02 14:57:56 | INFO    |   [Seed  777] Proposed_KAR_STGCN -> MPJPE:  5.53 mm | PA-MPJPE:  3.94 mm | BLCE:  2.96 mm | Macro-F1: 100.0%
+2026-11-02 14:58:04 | INFO    |   [Seed  999] Proposed_KAR_STGCN -> MPJPE:  5.09 mm | PA-MPJPE:  3.70 mm | BLCE:  2.73 mm | Macro-F1: 100.0%
+2026-11-02 14:58:04 | INFO    | ------------------------------------------------------------------------
+2026-11-02 14:58:04 | INFO    | กำลังประมวลผล Dataset: [SHREC2017] | Scenario: [Level3_Severe_Temporal_Dropout]
+2026-11-02 14:58:13 | INFO    |   [Seed   42] Proposed_KAR_STGCN -> MPJPE:  9.09 mm | PA-MPJPE:  6.46 mm | BLCE:  5.29 mm | Macro-F1: 100.0%
+2026-11-02 14:58:21 | INFO    |   [Seed  100] Proposed_KAR_STGCN -> MPJPE:  9.99 mm | PA-MPJPE:  6.86 mm | BLCE:  5.58 mm | Macro-F1: 100.0%
+2026-11-02 14:58:30 | INFO    |   [Seed 2026] Proposed_KAR_STGCN -> MPJPE:  9.34 mm | PA-MPJPE:  6.37 mm | BLCE:  5.28 mm | Macro-F1: 100.0%
+2026-11-02 14:58:37 | INFO    |   [Seed  777] Proposed_KAR_STGCN -> MPJPE:  9.89 mm | PA-MPJPE:  6.80 mm | BLCE:  5.62 mm | Macro-F1: 100.0%
+2026-11-02 14:58:46 | INFO    |   [Seed  999] Proposed_KAR_STGCN -> MPJPE: 10.20 mm | PA-MPJPE:  6.86 mm | BLCE:  5.73 mm | Macro-F1: 100.0%
+2026-11-02 14:58:46 | INFO    | ------------------------------------------------------------------------
+2026-11-02 14:58:46 | INFO    | กำลังประมวลผล Dataset: [SHREC2017] | Scenario: [Level4_LongTail_Imbalanced]
+2026-11-02 14:58:49 | INFO    |   [Seed   42] Proposed_KAR_STGCN -> MPJPE: 13.42 mm | PA-MPJPE: 10.43 mm | BLCE:  7.96 mm | Macro-F1: 100.0%
+2026-11-02 14:58:53 | INFO    |   [Seed  100] Proposed_KAR_STGCN -> MPJPE: 12.99 mm | PA-MPJPE: 10.30 mm | BLCE:  7.52 mm | Macro-F1: 100.0%
+2026-11-02 14:58:56 | INFO    |   [Seed 2026] Proposed_KAR_STGCN -> MPJPE: 11.78 mm | PA-MPJPE:  9.16 mm | BLCE:  6.75 mm | Macro-F1: 100.0%
+2026-11-02 14:59:00 | INFO    |   [Seed  777] Proposed_KAR_STGCN -> MPJPE: 14.19 mm | PA-MPJPE: 11.31 mm | BLCE:  7.84 mm | Macro-F1: 100.0%
+2026-11-02 14:59:04 | INFO    |   [Seed  999] Proposed_KAR_STGCN -> MPJPE: 13.30 mm | PA-MPJPE: 10.36 mm | BLCE:  7.90 mm | Macro-F1: 100.0%
+2026-11-02 14:59:04 | INFO    | ------------------------------------------------------------------------
+2026-11-02 14:59:04 | INFO    | กำลังประมวลผล Dataset: [FPHA] | Scenario: [Level1_Clean]
+2026-11-02 14:59:11 | INFO    |   [Seed   42] Proposed_KAR_STGCN -> MPJPE:  4.64 mm | PA-MPJPE:  1.33 mm | BLCE:  2.02 mm | Macro-F1:  55.6%
+2026-11-02 14:59:18 | INFO    |   [Seed  100] Proposed_KAR_STGCN -> MPJPE:  4.42 mm | PA-MPJPE:  1.20 mm | BLCE:  1.94 mm | Macro-F1:   4.8%
+2026-11-02 14:59:26 | INFO    |   [Seed 2026] Proposed_KAR_STGCN -> MPJPE:  4.40 mm | PA-MPJPE:  1.20 mm | BLCE:  1.92 mm | Macro-F1:   4.8%
+2026-11-02 14:59:33 | INFO    |   [Seed  777] Proposed_KAR_STGCN -> MPJPE:  4.55 mm | PA-MPJPE:  1.20 mm | BLCE:  1.99 mm | Macro-F1:   4.8%
+2026-11-02 14:59:40 | INFO    |   [Seed  999] Proposed_KAR_STGCN -> MPJPE:  4.39 mm | PA-MPJPE:  1.20 mm | BLCE:  1.91 mm | Macro-F1:   4.8%
+2026-11-02 14:59:40 | INFO    | ------------------------------------------------------------------------
+2026-11-02 14:59:40 | INFO    | กำลังประมวลผล Dataset: [FPHA] | Scenario: [Level2_Mild_Occlusion]
+2026-11-02 14:59:47 | INFO    |   [Seed   42] Proposed_KAR_STGCN -> MPJPE: 12.77 mm | PA-MPJPE:  6.18 mm | BLCE:  6.03 mm | Macro-F1: 100.0%
+2026-11-02 14:59:54 | INFO    |   [Seed  100] Proposed_KAR_STGCN -> MPJPE: 12.98 mm | PA-MPJPE:  5.08 mm | BLCE:  5.86 mm | Macro-F1:   4.8%
+2026-11-02 15:00:01 | INFO    |   [Seed 2026] Proposed_KAR_STGCN -> MPJPE: 14.31 mm | PA-MPJPE:  5.56 mm | BLCE:  6.04 mm | Macro-F1:   4.8%
+2026-11-02 15:00:09 | INFO    |   [Seed  777] Proposed_KAR_STGCN -> MPJPE: 13.09 mm | PA-MPJPE:  4.94 mm | BLCE:  5.95 mm | Macro-F1:   4.8%
+2026-11-02 15:00:16 | INFO    |   [Seed  999] Proposed_KAR_STGCN -> MPJPE: 11.55 mm | PA-MPJPE:  4.64 mm | BLCE:  4.98 mm | Macro-F1:   4.8%
+2026-11-02 15:00:16 | INFO    | ------------------------------------------------------------------------
+2026-11-02 15:00:16 | INFO    | กำลังประมวลผล Dataset: [FPHA] | Scenario: [Level3_Severe_Temporal_Dropout]
+2026-11-02 15:00:23 | INFO    |   [Seed   42] Proposed_KAR_STGCN -> MPJPE: 19.67 mm | PA-MPJPE:  7.66 mm | BLCE:  8.97 mm | Macro-F1:   4.8%
+2026-11-02 15:00:30 | INFO    |   [Seed  100] Proposed_KAR_STGCN -> MPJPE: 18.96 mm | PA-MPJPE:  7.15 mm | BLCE:  8.92 mm | Macro-F1:   4.8%
+2026-11-02 15:01:23 | INFO    |   [Seed 2026] Proposed_KAR_STGCN -> MPJPE: 17.98 mm | PA-MPJPE:  7.03 mm | BLCE:  8.26 mm | Macro-F1:   4.8%
+2026-11-02 15:01:30 | INFO    |   [Seed  777] Proposed_KAR_STGCN -> MPJPE: 18.41 mm | PA-MPJPE:  6.95 mm | BLCE:  8.46 mm | Macro-F1:   4.8%
+2026-11-02 15:01:37 | INFO    |   [Seed  999] Proposed_KAR_STGCN -> MPJPE: 17.39 mm | PA-MPJPE:  6.76 mm | BLCE:  8.14 mm | Macro-F1:   4.8%
+2026-11-02 15:01:37 | INFO    | ------------------------------------------------------------------------
+2026-11-02 15:01:37 | INFO    | กำลังประมวลผล Dataset: [FPHA] | Scenario: [Level4_LongTail_Imbalanced]
+2026-11-02 15:01:42 | INFO    |   [Seed   42] Proposed_KAR_STGCN -> MPJPE: 22.97 mm | PA-MPJPE: 13.01 mm | BLCE: 12.05 mm | Macro-F1:   7.1%
+2026-11-02 15:01:46 | INFO    |   [Seed  100] Proposed_KAR_STGCN -> MPJPE: 23.90 mm | PA-MPJPE: 14.98 mm | BLCE: 13.34 mm | Macro-F1:  59.2%
+2026-11-02 15:01:51 | INFO    |   [Seed 2026] Proposed_KAR_STGCN -> MPJPE: 24.35 mm | PA-MPJPE: 14.03 mm | BLCE: 12.98 mm | Macro-F1:  20.8%
+2026-11-02 15:01:56 | INFO    |   [Seed  777] Proposed_KAR_STGCN -> MPJPE: 23.81 mm | PA-MPJPE: 14.42 mm | BLCE: 12.93 mm | Macro-F1:  15.8%
+2026-11-02 15:02:00 | INFO    |   [Seed  999] Proposed_KAR_STGCN -> MPJPE: 24.09 mm | PA-MPJPE: 15.22 mm | BLCE: 14.53 mm | Macro-F1:  57.8%
+2026-11-02 15:02:00 | INFO    | บันทึกตาราง LaTeX สำเร็จที่: E:\TeachPree\Research_Academic_Services\LMC2_Data_Collection_and_Simulation_Scripts\LMC2_Benchmark_Dataset\05_latex_outputs\table_lmc2_multiseed_results.tex
+2026-11-02 15:06:29 | INFO    | ========================================================================
+2026-11-02 15:06:29 | INFO    | เริ่มต้นเทรนและประเมินผล Multi-Seed Benchmark (v1.3) | อุปกรณ์: cuda (NVIDIA GeForce RTX 2050)
+2026-11-02 15:06:29 | INFO    | ========================================================================
+2026-11-02 15:06:29 | INFO    | ------------------------------------------------------------------------
+2026-11-02 15:06:29 | INFO    | กำลังประมวลผล Dataset: [SHREC2017] | Scenario: [Level1_Clean]
+2026-11-02 15:06:46 | INFO    |   [Seed   42] Proposed_KAR_STGCN -> MPJPE:  1.84 mm | PA-MPJPE:  1.20 mm | BLCE:  0.99 mm | Macro-F1: 100.0%
+2026-11-02 15:06:54 | INFO    |   [Seed  100] Proposed_KAR_STGCN -> MPJPE:  1.85 mm | PA-MPJPE:  1.20 mm | BLCE:  1.00 mm | Macro-F1: 100.0%
+2026-11-02 15:07:03 | INFO    |   [Seed 2026] Proposed_KAR_STGCN -> MPJPE:  1.84 mm | PA-MPJPE:  1.20 mm | BLCE:  1.00 mm | Macro-F1: 100.0%
+2026-11-02 15:07:11 | INFO    |   [Seed  777] Proposed_KAR_STGCN -> MPJPE:  1.86 mm | PA-MPJPE:  1.20 mm | BLCE:  1.02 mm | Macro-F1: 100.0%
+2026-11-02 15:07:20 | INFO    |   [Seed  999] Proposed_KAR_STGCN -> MPJPE:  1.85 mm | PA-MPJPE:  1.20 mm | BLCE:  1.00 mm | Macro-F1: 100.0%
+2026-11-02 15:07:20 | INFO    | ------------------------------------------------------------------------
+2026-11-02 15:07:20 | INFO    | กำลังประมวลผล Dataset: [SHREC2017] | Scenario: [Level2_Mild_Occlusion]
+2026-11-02 15:07:28 | INFO    |   [Seed   42] Proposed_KAR_STGCN -> MPJPE:  5.19 mm | PA-MPJPE:  3.66 mm | BLCE:  2.79 mm | Macro-F1: 100.0%
+2026-11-02 15:07:37 | INFO    |   [Seed  100] Proposed_KAR_STGCN -> MPJPE:  5.18 mm | PA-MPJPE:  3.62 mm | BLCE:  2.77 mm | Macro-F1: 100.0%
+2026-11-02 15:07:45 | INFO    |   [Seed 2026] Proposed_KAR_STGCN -> MPJPE:  5.19 mm | PA-MPJPE:  3.64 mm | BLCE:  2.78 mm | Macro-F1: 100.0%
+2026-11-02 15:07:53 | INFO    |   [Seed  777] Proposed_KAR_STGCN -> MPJPE:  5.22 mm | PA-MPJPE:  3.63 mm | BLCE:  2.84 mm | Macro-F1: 100.0%
+2026-11-02 15:08:02 | INFO    |   [Seed  999] Proposed_KAR_STGCN -> MPJPE:  5.31 mm | PA-MPJPE:  3.74 mm | BLCE:  2.85 mm | Macro-F1: 100.0%
+2026-11-02 15:08:02 | INFO    | ------------------------------------------------------------------------
+2026-11-02 15:08:02 | INFO    | กำลังประมวลผล Dataset: [SHREC2017] | Scenario: [Level3_Severe_Temporal_Dropout]
+2026-11-02 15:08:10 | INFO    |   [Seed   42] Proposed_KAR_STGCN -> MPJPE:  9.32 mm | PA-MPJPE:  6.29 mm | BLCE:  5.35 mm | Macro-F1: 100.0%
+2026-11-02 15:08:19 | INFO    |   [Seed  100] Proposed_KAR_STGCN -> MPJPE:  9.09 mm | PA-MPJPE:  6.26 mm | BLCE:  5.44 mm | Macro-F1: 100.0%
+2026-11-02 15:08:27 | INFO    |   [Seed 2026] Proposed_KAR_STGCN -> MPJPE:  8.80 mm | PA-MPJPE:  5.98 mm | BLCE:  5.06 mm | Macro-F1: 100.0%
+2026-11-02 15:08:36 | INFO    |   [Seed  777] Proposed_KAR_STGCN -> MPJPE:  9.49 mm | PA-MPJPE:  6.17 mm | BLCE:  5.44 mm | Macro-F1: 100.0%
+2026-11-02 15:08:44 | INFO    |   [Seed  999] Proposed_KAR_STGCN -> MPJPE:  9.17 mm | PA-MPJPE:  6.10 mm | BLCE:  5.30 mm | Macro-F1: 100.0%
+2026-11-02 15:08:44 | INFO    | ------------------------------------------------------------------------
+2026-11-02 15:08:44 | INFO    | กำลังประมวลผล Dataset: [SHREC2017] | Scenario: [Level4_LongTail_Imbalanced]
+2026-11-02 15:08:47 | INFO    |   [Seed   42] Proposed_KAR_STGCN -> MPJPE: 12.35 mm | PA-MPJPE:  9.47 mm | BLCE:  7.51 mm | Macro-F1: 100.0%
+2026-11-02 15:08:51 | INFO    |   [Seed  100] Proposed_KAR_STGCN -> MPJPE: 12.16 mm | PA-MPJPE:  9.07 mm | BLCE:  7.12 mm | Macro-F1: 100.0%
+2026-11-02 15:08:55 | INFO    |   [Seed 2026] Proposed_KAR_STGCN -> MPJPE: 11.63 mm | PA-MPJPE:  8.66 mm | BLCE:  6.75 mm | Macro-F1: 100.0%
+2026-11-02 15:08:58 | INFO    |   [Seed  777] Proposed_KAR_STGCN -> MPJPE: 12.51 mm | PA-MPJPE:  9.31 mm | BLCE:  7.20 mm | Macro-F1: 100.0%
+2026-11-02 15:09:02 | INFO    |   [Seed  999] Proposed_KAR_STGCN -> MPJPE: 11.93 mm | PA-MPJPE:  8.89 mm | BLCE:  7.12 mm | Macro-F1: 100.0%
+2026-11-02 15:09:02 | INFO    | ------------------------------------------------------------------------
+2026-11-02 15:09:02 | INFO    | กำลังประมวลผล Dataset: [FPHA] | Scenario: [Level1_Clean]
+2026-11-02 15:09:09 | INFO    |   [Seed   42] Proposed_KAR_STGCN -> MPJPE:  4.49 mm | PA-MPJPE:  1.21 mm | BLCE:  1.97 mm | Macro-F1: 100.0%
+2026-11-02 15:09:15 | INFO    |   [Seed  100] Proposed_KAR_STGCN -> MPJPE:  4.44 mm | PA-MPJPE:  1.20 mm | BLCE:  1.93 mm | Macro-F1: 100.0%
+2026-11-02 15:09:23 | INFO    |   [Seed 2026] Proposed_KAR_STGCN -> MPJPE:  4.50 mm | PA-MPJPE:  1.21 mm | BLCE:  1.93 mm | Macro-F1: 100.0%
+2026-11-02 15:09:29 | INFO    |   [Seed  777] Proposed_KAR_STGCN -> MPJPE:  4.55 mm | PA-MPJPE:  1.20 mm | BLCE:  1.99 mm | Macro-F1: 100.0%
+2026-11-02 15:09:36 | INFO    |   [Seed  999] Proposed_KAR_STGCN -> MPJPE:  4.39 mm | PA-MPJPE:  1.19 mm | BLCE:  1.91 mm | Macro-F1: 100.0%
+2026-11-02 15:09:36 | INFO    | ------------------------------------------------------------------------
+2026-11-02 15:09:36 | INFO    | กำลังประมวลผล Dataset: [FPHA] | Scenario: [Level2_Mild_Occlusion]
+2026-11-02 15:09:43 | INFO    |   [Seed   42] Proposed_KAR_STGCN -> MPJPE: 12.38 mm | PA-MPJPE:  4.64 mm | BLCE:  5.68 mm | Macro-F1: 100.0%
+2026-11-02 15:09:50 | INFO    |   [Seed  100] Proposed_KAR_STGCN -> MPJPE: 12.28 mm | PA-MPJPE:  4.45 mm | BLCE:  5.57 mm | Macro-F1: 100.0%
+2026-11-02 15:09:57 | INFO    |   [Seed 2026] Proposed_KAR_STGCN -> MPJPE: 12.12 mm | PA-MPJPE:  4.92 mm | BLCE:  5.55 mm | Macro-F1: 100.0%
+2026-11-02 15:10:05 | INFO    |   [Seed  777] Proposed_KAR_STGCN -> MPJPE: 12.44 mm | PA-MPJPE:  4.67 mm | BLCE:  5.77 mm | Macro-F1: 100.0%
+2026-11-02 15:10:12 | INFO    |   [Seed  999] Proposed_KAR_STGCN -> MPJPE: 11.65 mm | PA-MPJPE:  4.73 mm | BLCE:  5.30 mm | Macro-F1: 100.0%
+2026-11-02 15:10:12 | INFO    | ------------------------------------------------------------------------
+2026-11-02 15:10:12 | INFO    | กำลังประมวลผล Dataset: [FPHA] | Scenario: [Level3_Severe_Temporal_Dropout]
+2026-11-02 15:10:19 | INFO    |   [Seed   42] Proposed_KAR_STGCN -> MPJPE: 19.27 mm | PA-MPJPE:  7.42 mm | BLCE:  8.91 mm | Macro-F1: 100.0%
+2026-11-02 15:10:27 | INFO    |   [Seed  100] Proposed_KAR_STGCN -> MPJPE: 18.35 mm | PA-MPJPE:  6.87 mm | BLCE:  8.77 mm | Macro-F1: 100.0%
+2026-11-02 15:10:34 | INFO    |   [Seed 2026] Proposed_KAR_STGCN -> MPJPE: 18.36 mm | PA-MPJPE:  7.13 mm | BLCE:  8.40 mm | Macro-F1: 100.0%
+2026-11-02 15:10:41 | INFO    |   [Seed  777] Proposed_KAR_STGCN -> MPJPE: 18.53 mm | PA-MPJPE:  7.03 mm | BLCE:  8.51 mm | Macro-F1: 100.0%
+2026-11-02 15:10:49 | INFO    |   [Seed  999] Proposed_KAR_STGCN -> MPJPE: 17.80 mm | PA-MPJPE:  6.70 mm | BLCE:  8.17 mm | Macro-F1: 100.0%
+2026-11-02 15:10:49 | INFO    | ------------------------------------------------------------------------
+2026-11-02 15:10:49 | INFO    | กำลังประมวลผล Dataset: [FPHA] | Scenario: [Level4_LongTail_Imbalanced]
+2026-11-02 15:10:54 | INFO    |   [Seed   42] Proposed_KAR_STGCN -> MPJPE: 21.30 mm | PA-MPJPE: 11.51 mm | BLCE: 11.17 mm | Macro-F1: 100.0%
+2026-11-02 15:10:59 | INFO    |   [Seed  100] Proposed_KAR_STGCN -> MPJPE: 20.17 mm | PA-MPJPE: 11.04 mm | BLCE: 10.74 mm | Macro-F1: 100.0%
+2026-11-02 15:11:04 | INFO    |   [Seed 2026] Proposed_KAR_STGCN -> MPJPE: 20.84 mm | PA-MPJPE: 11.55 mm | BLCE: 10.91 mm | Macro-F1: 100.0%
+2026-11-02 15:11:09 | INFO    |   [Seed  777] Proposed_KAR_STGCN -> MPJPE: 21.60 mm | PA-MPJPE: 12.23 mm | BLCE: 11.81 mm | Macro-F1: 100.0%
+2026-11-02 15:11:14 | INFO    |   [Seed  999] Proposed_KAR_STGCN -> MPJPE: 20.20 mm | PA-MPJPE: 11.36 mm | BLCE: 10.63 mm | Macro-F1: 100.0%
+2026-11-02 15:11:14 | INFO    | บันทึกตาราง LaTeX สำเร็จที่: E:\TeachPree\Research_Academic_Services\LMC2_Data_Collection_and_Simulation_Scripts\LMC2_Benchmark_Dataset\05_latex_outputs\table_lmc2_multiseed_results.tex

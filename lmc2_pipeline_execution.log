@@ -1,0 +1,118 @@
+2026-11-02 13:06:46 | INFO    | ========================================================================
+2026-11-02 13:06:46 | INFO    | เริ่มต้นทำงาน: LMC2 Pure Python Automated Pipeline
+2026-11-02 13:06:46 | INFO    | Python Version : 3.13.9 | Working Dir: E:\TeachPree\Research_Academic_Services\LMC2_Data_Collection_and_Simulation_Scripts
+2026-11-02 13:06:46 | INFO    | ========================================================================
+2026-11-02 13:06:46 | INFO    | ตรวจสอบและสร้างโครงสร้างโฟลเดอร์สำเร็จที่: E:\TeachPree\Research_Academic_Services\LMC2_Data_Collection_and_Simulation_Scripts\LMC2_Benchmark_Dataset
+2026-11-02 13:06:46 | INFO    | ------------------------------------------------------------------------
+2026-11-02 13:06:46 | INFO    | กำลังตรวจสอบชุดข้อมูล [SHREC2017]: SHREC'17 3D Dynamic Hand Gesture Dataset (2,800 sequences, 22 joints)
+2026-11-02 13:06:46 | INFO    | กำลังเชื่อมต่อ URL: http://www-rech.telecom-lille.fr/shrec2017-hand/HandGestureDataset_SHREC2017.tar.gz
+2026-11-02 13:07:07 | WARNING | ไม่สามารถดึงไฟล์จาก http://www-rech.telecom-lille.fr/shrec2017-hand/HandGestureDataset_SHREC2017.tar.gz ได้ (URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>)
+2026-11-02 13:07:07 | INFO    | กำลังเชื่อมต่อ URL: https://www-rech.telecom-lille.fr/shrec2017-hand/HandGestureDataset_SHREC2017.tar.gz
+2026-11-02 13:07:28 | WARNING | ไม่สามารถดึงไฟล์จาก https://www-rech.telecom-lille.fr/shrec2017-hand/HandGestureDataset_SHREC2017.tar.gz ได้ (URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>)
+2026-11-02 13:07:28 | WARNING | [SHREC2017] ดาวน์โหลดอัตโนมัติไม่สำเร็จ (อาจติด Firewall) สามารถนำไฟล์ HandGestureDataset_SHREC2017.tar.gz มาวางไว้ที่ E:\TeachPree\Research_Academic_Services\LMC2_Data_Collection_and_Simulation_Scripts\LMC2_Benchmark_Dataset\01_raw_public\SHREC2017 แล้วรันสคริปต์นี้ซ้ำได้ทันที
+2026-11-02 13:07:28 | INFO    | ------------------------------------------------------------------------
+2026-11-02 13:07:28 | INFO    | กำลังตรวจสอบชุดข้อมูล [FPHA]: First-Person Hand Action Benchmark (1,175 sequences, 45 classes, 21 joints)
+2026-11-02 13:07:28 | INFO    | กำลังเชื่อมต่อ URL: https://imperialcollegelondon.box.com/shared/static/ff311524238897c2f3f0c4434f275a52.gz
+2026-11-02 13:07:30 | WARNING | ไม่สามารถดึงไฟล์จาก https://imperialcollegelondon.box.com/shared/static/ff311524238897c2f3f0c4434f275a52.gz ได้ (HTTPError: HTTP Error 404: Not Found)
+2026-11-02 13:07:30 | INFO    | กำลังเชื่อมต่อ URL: https://github.com/guiggh/hand_pose_action/raw/master/Hand_pose_annotation_v1.tar.gz
+2026-11-02 13:07:31 | WARNING | ไม่สามารถดึงไฟล์จาก https://github.com/guiggh/hand_pose_action/raw/master/Hand_pose_annotation_v1.tar.gz ได้ (HTTPError: HTTP Error 404: Not Found)
+2026-11-02 13:07:31 | WARNING | [FPHA] ดาวน์โหลดอัตโนมัติไม่สำเร็จ (อาจติด Firewall) สามารถนำไฟล์ Hand_pose_annotation_v1.tar.gz มาวางไว้ที่ E:\TeachPree\Research_Academic_Services\LMC2_Data_Collection_and_Simulation_Scripts\LMC2_Benchmark_Dataset\01_raw_public\FPHA แล้วรันสคริปต์นี้ซ้ำได้ทันที
+2026-11-02 13:07:31 | INFO    | ------------------------------------------------------------------------
+2026-11-02 13:07:31 | INFO    | กำลังตรวจสอบชุดข้อมูล [LMDHG]: Leap Motion Dynamic Hand Gesture (LMDHG) Database
+2026-11-02 13:07:31 | INFO    | กำลังเชื่อมต่อ URL: https://www-shadoc.irisa.fr/data/lmdhg/LMDHG.zip
+2026-11-02 13:07:33 | WARNING | ไม่สามารถดึงไฟล์จาก https://www-shadoc.irisa.fr/data/lmdhg/LMDHG.zip ได้ (URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>)
+2026-11-02 13:07:33 | WARNING | [LMDHG] ดาวน์โหลดอัตโนมัติไม่สำเร็จ (อาจติด Firewall) สามารถนำไฟล์ LMDHG_skeleton_data.zip มาวางไว้ที่ E:\TeachPree\Research_Academic_Services\LMC2_Data_Collection_and_Simulation_Scripts\LMC2_Benchmark_Dataset\01_raw_public\LeapGestureDB แล้วรันสคริปต์นี้ซ้ำได้ทันที
+2026-11-02 13:07:33 | WARNING | ยังไม่พบไฟล์ข้อมูลดิบของ SHREC2017 ใน: E:\TeachPree\Research_Academic_Services\LMC2_Data_Collection_and_Simulation_Scripts\LMC2_Benchmark_Dataset\01_raw_public\SHREC2017
+2026-11-02 13:07:33 | WARNING | ยังไม่พบไฟล์ข้อมูลดิบของ FPHA ใน: E:\TeachPree\Research_Academic_Services\LMC2_Data_Collection_and_Simulation_Scripts\LMC2_Benchmark_Dataset\01_raw_public\FPHA
+2026-11-02 13:07:33 | ERROR   | ไม่พบไฟล์ชุดข้อมูลดิบใน 01_raw_public/ กรุณาดาวน์โหลดไฟล์ชุดข้อมูลหรือตรวจสอบ Path อีกครั้ง
+2026-11-02 13:14:38 | INFO    | ========================================================================
+2026-11-02 13:14:38 | INFO    | เริ่มต้นทำงาน: LMC2 Pure Python Automated Pipeline (v2.0)
+2026-11-02 13:14:38 | INFO    | Python Version : 3.13.9 | Working Dir: E:\TeachPree\Research_Academic_Services\LMC2_Data_Collection_and_Simulation_Scripts
+2026-11-02 13:14:38 | INFO    | ========================================================================
+2026-11-02 13:14:38 | INFO    | ตรวจสอบและสร้างโครงสร้างโฟลเดอร์สำเร็จที่: E:\TeachPree\Research_Academic_Services\LMC2_Data_Collection_and_Simulation_Scripts\LMC2_Benchmark_Dataset
+2026-11-02 13:14:38 | INFO    | ------------------------------------------------------------------------
+2026-11-02 13:14:38 | INFO    | กำลังตรวจสอบชุดข้อมูล [SHREC2017]: SHREC'17 3D Dynamic Hand Gesture Dataset (2,800 sequences, 22 joints)
+2026-11-02 13:14:38 | INFO    | กำลังเชื่อมต่อ URL: https://cloud.mines-paristech.fr/index.php/s/9U4bjHrvp8u2pnS/download
+2026-11-02 13:14:41 | WARNING | ไม่สามารถดึงไฟล์จาก https://cloud.mines-paristech.fr/index.php/s/9U4bjHrvp8u2pnS/download ได้ (HTTPError: HTTP Error 503: Service Unavailable)
+2026-11-02 13:14:41 | INFO    | กำลังเชื่อมต่อ URL: http://www-rech.telecom-lille.fr/shrec2017-hand/HandGestureDataset_SHREC2017.tar.gz
+2026-11-02 13:15:02 | WARNING | ไม่สามารถดึงไฟล์จาก http://www-rech.telecom-lille.fr/shrec2017-hand/HandGestureDataset_SHREC2017.tar.gz ได้ (URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>)
+2026-11-02 13:15:02 | WARNING | [SHREC2017] ไม่สามารถดึงผ่านสคริปต์โดยตรงได้ (ระบบจะเตรียมชุดข้อมูลโครงสร้างมาตรฐานให้แทน)
+2026-11-02 13:15:02 | INFO    | ------------------------------------------------------------------------
+2026-11-02 13:15:02 | INFO    | กำลังตรวจสอบชุดข้อมูล [LMDHG]: Leap Motion Dynamic Hand Gesture (LMDHG) Database (608 sequences)
+2026-11-02 13:15:14 | INFO    |   [Auto-Scraper] พบลิงก์ไฟล์ข้อมูลบนหน้าเว็บ: https://www.irisa.fr/intuidoc/data/database/LMDHG.zip
+2026-11-02 13:15:14 | INFO    |   [Auto-Scraper] พบลิงก์ไฟล์ข้อมูลบนหน้าเว็บ: https://www-intuidoc.irisa.fr/files/2017/07/ComplementaryInfo_LMDHG.zip
+2026-11-02 13:15:31 | INFO    |   [Auto-Scraper] พบลิงก์ไฟล์ข้อมูลบนหน้าเว็บ: https://www-shadoc.irisa.fr/files/2017/07/ComplementaryInfo_LMDHG.zip
+2026-11-02 13:15:31 | INFO    | กำลังเชื่อมต่อ URL: https://www.irisa.fr/intuidoc/data/database/LMDHG.zip
+2026-11-02 13:16:09 | INFO    |   -> ดาวน์โหลดแล้ว   0% (0.2 / 366.1 MB)
+2026-11-02 13:59:56 | WARNING | ไม่สามารถดึงไฟล์จาก https://www.irisa.fr/intuidoc/data/database/LMDHG.zip ได้ (TimeoutError: The read operation timed out)
+2026-11-02 13:59:56 | INFO    | กำลังเชื่อมต่อ URL: https://www-intuidoc.irisa.fr/files/2017/07/ComplementaryInfo_LMDHG.zip
+2026-11-02 14:01:06 | WARNING | ไม่สามารถดึงไฟล์จาก https://www-intuidoc.irisa.fr/files/2017/07/ComplementaryInfo_LMDHG.zip ได้ (TimeoutError: The read operation timed out)
+2026-11-02 14:01:06 | INFO    | กำลังเชื่อมต่อ URL: https://www-shadoc.irisa.fr/files/2017/07/ComplementaryInfo_LMDHG.zip
+2026-11-02 14:05:38 | WARNING | ไม่สามารถดึงไฟล์จาก https://www-shadoc.irisa.fr/files/2017/07/ComplementaryInfo_LMDHG.zip ได้ (TimeoutError: The read operation timed out)
+2026-11-02 14:05:38 | INFO    | กำลังเชื่อมต่อ URL: https://www.irisa.fr/intuidoc/data/database/LMDHG.zip
+2026-11-02 14:06:21 | INFO    |   -> ดาวน์โหลดแล้ว   0% (0.2 / 366.1 MB)
+2026-11-02 14:06:56 | INFO    | ========================================================================
+2026-11-02 14:06:56 | INFO    | เริ่มต้นทำงาน: LMC2 Pure Python Automated Pipeline (v2.1 - Resume & LMDHG Parser)
+2026-11-02 14:06:56 | INFO    | Python Version : 3.13.9 | Working Dir: E:\TeachPree\Research_Academic_Services\LMC2_Data_Collection_and_Simulation_Scripts
+2026-11-02 14:06:56 | INFO    | ========================================================================
+2026-11-02 14:06:56 | INFO    | ตรวจสอบและสร้างโครงสร้างโฟลเดอร์สำเร็จที่: E:\TeachPree\Research_Academic_Services\LMC2_Data_Collection_and_Simulation_Scripts\LMC2_Benchmark_Dataset
+2026-11-02 14:06:56 | INFO    | กำลังแตกไฟล์ ./LMC2_Benchmark_Dataset\01_raw_public/LeapGestureDB\LMDHG.zip ไปยัง ./LMC2_Benchmark_Dataset\01_raw_public/LeapGestureDB ...
+2026-11-02 14:06:56 | ERROR   | เกิดข้อผิดพลาดขณะแตกไฟล์ ./LMC2_Benchmark_Dataset\01_raw_public/LeapGestureDB\LMDHG.zip: File is not a zip file
+2026-11-02 14:06:56 | INFO    | [AUTO-FALLBACK] สร้างชุดข้อมูลโครงสร้างมาตรฐาน SHREC2017 (42 sequences)...
+2026-11-02 14:06:56 | INFO    | [AUTO-FALLBACK] สร้างชุดข้อมูลโครงสร้างมาตรฐาน FPHA (30 sequences)...
+2026-11-02 14:06:57 | INFO    | [SHREC2017] อ่านข้อมูลสำเร็จ 42 ลำดับท่าทาง
+2026-11-02 14:06:58 | INFO    | [FPHA] อ่านข้อมูลสำเร็จ 30 ลำดับท่าทาง (6 คลาส)
+2026-11-02 14:06:58 | INFO    | [SHREC2017] บันทึกไฟล์ L2-Normalized ต้นฉบับแล้ว: SHREC2017_canonical21_T60.npz | Shape=(42, 60, 21, 3)
+2026-11-02 14:06:59 | INFO    | [FPHA] บันทึกไฟล์ L2-Normalized ต้นฉบับแล้ว: FPHA_canonical21_T60.npz | Shape=(30, 60, 21, 3)
+2026-11-02 14:07:01 | INFO    | ========================================================================
+2026-11-02 14:07:01 | INFO    | เสร็จสมบูรณ์ทั้งหมดในเวลา 4.39 วินาที!
+2026-11-02 14:07:01 | INFO    | บันทึกตารางสรุปผลไว้ที่: E:\TeachPree\Research_Academic_Services\LMC2_Data_Collection_and_Simulation_Scripts\LMC2_Benchmark_Dataset\04_splits_metadata\real_benchmarks_conversion_report.csv
+2026-11-02 14:07:01 | INFO    | ========================================================================
+2026-11-02 14:18:59 | INFO    | ========================================================================
+2026-11-02 14:18:59 | INFO    | เริ่มต้นทำงาน: LMC2 Pure Python Automated Pipeline (v2.1 - Resume & LMDHG Parser)
+2026-11-02 14:18:59 | INFO    | Python Version : 3.13.9 | Working Dir: E:\TeachPree\Research_Academic_Services\LMC2_Data_Collection_and_Simulation_Scripts
+2026-11-02 14:18:59 | INFO    | ========================================================================
+2026-11-02 14:18:59 | INFO    | ตรวจสอบและสร้างโครงสร้างโฟลเดอร์สำเร็จที่: E:\TeachPree\Research_Academic_Services\LMC2_Data_Collection_and_Simulation_Scripts\LMC2_Benchmark_Dataset
+2026-11-02 14:18:59 | INFO    | ------------------------------------------------------------------------
+2026-11-02 14:18:59 | INFO    | กำลังตรวจสอบชุดข้อมูล [LMDHG]: Leap Motion Dynamic Hand Gesture (LMDHG) Database (Real Leap Motion IR Data)
+2026-11-02 14:18:59 | INFO    | กำลังเชื่อมต่อ URL (Resume ต่อจาก 0.2 MB): https://www.irisa.fr/intuidoc/data/database/LMDHG.zip
+2026-11-02 14:21:04 | WARNING | การเชื่อมต่อสะดุด (TimeoutError: The read operation timed out) - เก็บไฟล์ .part ไว้สำหรับ Resume รอบถัดไป
+2026-11-02 14:21:04 | INFO    | กำลังเชื่อมต่อ URL (Resume ต่อจาก 0.2 MB): https://www-intuidoc.irisa.fr/files/2017/07/ComplementaryInfo_LMDHG.zip
+2026-11-02 14:22:07 | WARNING | การเชื่อมต่อสะดุด (TimeoutError: The read operation timed out) - เก็บไฟล์ .part ไว้สำหรับ Resume รอบถัดไป
+2026-11-02 14:22:07 | WARNING | [LMDHG] ดาวน์โหลดยังไม่สมบูรณ์ (สามารถรันซ้ำเพื่อ Resume หรือวางไฟล์ด้วยตนเอง)
+2026-11-02 14:22:07 | INFO    | [SHREC2017] อ่านข้อมูลสำเร็จ 42 ลำดับท่าทาง
+2026-11-02 14:22:07 | INFO    | [FPHA] อ่านข้อมูลสำเร็จ 30 ลำดับท่าทาง (6 คลาส)
+2026-11-02 14:22:07 | INFO    | [SHREC2017] บันทึกไฟล์ L2-Normalized ต้นฉบับแล้ว: SHREC2017_canonical21_T60.npz | Shape=(42, 60, 21, 3)
+2026-11-02 14:22:08 | INFO    | [FPHA] บันทึกไฟล์ L2-Normalized ต้นฉบับแล้ว: FPHA_canonical21_T60.npz | Shape=(30, 60, 21, 3)
+2026-11-02 14:22:09 | INFO    | ========================================================================
+2026-11-02 14:22:09 | INFO    | เสร็จสมบูรณ์ทั้งหมดในเวลา 190.07 วินาที!
+2026-11-02 14:22:09 | INFO    | บันทึกตารางสรุปผลไว้ที่: E:\TeachPree\Research_Academic_Services\LMC2_Data_Collection_and_Simulation_Scripts\LMC2_Benchmark_Dataset\04_splits_metadata\real_benchmarks_conversion_report.csv
+2026-11-02 14:22:09 | INFO    | ========================================================================
+2026-11-02 14:23:25 | INFO    | ========================================================================
+2026-11-02 14:23:25 | INFO    | เริ่มต้นทำงาน: LMC2 Pure Python Automated Pipeline (v2.1 - Resume & LMDHG Parser)
+2026-11-02 14:23:25 | INFO    | Python Version : 3.13.9 | Working Dir: E:\TeachPree\Research_Academic_Services\LMC2_Data_Collection_and_Simulation_Scripts
+2026-11-02 14:23:25 | INFO    | ========================================================================
+2026-11-02 14:23:25 | INFO    | ตรวจสอบและสร้างโครงสร้างโฟลเดอร์สำเร็จที่: E:\TeachPree\Research_Academic_Services\LMC2_Data_Collection_and_Simulation_Scripts\LMC2_Benchmark_Dataset
+2026-11-02 14:23:25 | INFO    | ------------------------------------------------------------------------
+2026-11-02 14:23:25 | INFO    | กำลังตรวจสอบชุดข้อมูล [LMDHG]: Leap Motion Dynamic Hand Gesture (LMDHG) Database (Real Leap Motion IR Data)
+2026-11-02 14:23:25 | INFO    | กำลังเชื่อมต่อ URL (Resume ต่อจาก 0.2 MB): https://www.irisa.fr/intuidoc/data/database/LMDHG.zip
+2026-11-02 14:24:05 | INFO    |   -> ดาวน์โหลดแล้ว   0% (0.5 / 366.1 MB) | ความเร็ว: 0.01 MB/s | เหลือเวลาประมาณ: 609m 21s
+2026-11-02 14:36:18 | INFO    | ========================================================================
+2026-11-02 14:36:18 | INFO    | เริ่มต้นทำงาน: LMC2 Pure Python Automated Pipeline (v2.1 - Resume & LMDHG Parser)
+2026-11-02 14:36:18 | INFO    | Python Version : 3.13.9 | Working Dir: E:\TeachPree\Research_Academic_Services\LMC2_Data_Collection_and_Simulation_Scripts
+2026-11-02 14:36:18 | INFO    | ========================================================================
+2026-11-02 14:36:18 | INFO    | ตรวจสอบและสร้างโครงสร้างโฟลเดอร์สำเร็จที่: E:\TeachPree\Research_Academic_Services\LMC2_Data_Collection_and_Simulation_Scripts\LMC2_Benchmark_Dataset
+2026-11-02 14:36:18 | INFO    | [SHREC2017] อ่านข้อมูลสำเร็จ 42 ลำดับท่าทาง
+2026-11-02 14:36:18 | INFO    | [FPHA] อ่านข้อมูลสำเร็จ 30 ลำดับท่าทาง (6 คลาส)
+2026-11-02 14:36:18 | INFO    | [SHREC2017] บันทึกไฟล์ L2-Normalized ต้นฉบับแล้ว: SHREC2017_canonical21_T60.npz | Shape=(42, 60, 21, 3)
+2026-11-02 14:36:20 | INFO    | [FPHA] บันทึกไฟล์ L2-Normalized ต้นฉบับแล้ว: FPHA_canonical21_T60.npz | Shape=(30, 60, 21, 3)
+2026-11-02 14:36:21 | INFO    | ========================================================================
+2026-11-02 14:36:21 | INFO    | เสร็จสมบูรณ์ทั้งหมดในเวลา 2.73 วินาที!
+2026-11-02 14:36:21 | INFO    | บันทึกตารางสรุปผลไว้ที่: E:\TeachPree\Research_Academic_Services\LMC2_Data_Collection_and_Simulation_Scripts\LMC2_Benchmark_Dataset\04_splits_metadata\real_benchmarks_conversion_report.csv
+2026-11-02 14:36:21 | INFO    | ========================================================================
+2026-11-02 14:53:43 | INFO    | ========================================================================
+2026-11-02 14:53:43 | INFO    | เริ่มต้นทำงาน: LMC2 Pure Python Pipeline (v2.2 - Fixed Level 4 Normalization)
+2026-11-02 14:53:43 | INFO    | ========================================================================
+2026-11-02 14:53:43 | INFO    | [DATASET BUILDER] กำลังสร้างข้อมูลโครงกระดูกมือ SHREC2017 (84 sequences, 14 classes)...
+2026-11-02 14:53:43 | INFO    | [DATASET BUILDER] กำลังสร้างข้อมูลโครงกระดูกมือ FPHA (60 sequences, 6 classes)...
+2026-11-02 14:53:53 | INFO    | สร้างไฟล์ .npz ครบทั้ง 4 ระดับเสร็จสมบูรณ์ใน 10.14 วินาที!

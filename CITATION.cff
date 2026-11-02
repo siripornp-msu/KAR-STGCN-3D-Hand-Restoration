@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: 'If you use this software or benchmark protocol, please cite our work as below.'
+authors:
+  - family-names: 'Noiumkar'
+    given-names: 'Siriporn'
+    affiliation: 'Department of Creative Media, Faculty of Informatics, Mahasarakham University'
+    email: 'siriporn.p@msu.ac.th'
+title: 'KAR-STGCN: Kinematic-Aware Spatio-Temporal Graph Convolutional Network with Visibility-Guarded L2 Bone Normalization for 3D Hand Skeletal Restoration and Gesture Recognition under Optical Tracking Dropouts'
+version: 1.0.0
+date-released: 2026-11-03
+url: 'https://github.com/siripornp-msu/KAR-STGCN-3D-Hand-Restoration'
