@@ -1,27 +1,21 @@
-# Byte-compiled / optimized / DLL files
+﻿# Python cache & virtual environments
 __pycache__/
 *.py[cod]
-*$py.class
 .ipynb_checkpoints/
-
-# Virtual environments
 venv/
-env/
 .venv/
 
-# Large raw archives (>100 MB GitHub limit protection)
-*.zip
-*.tar
-*.tar.gz
-*.rar
-*.7z
-LMC2_Benchmark_Dataset/01_raw_public/
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Internal review & proposal documents
+# Internal documents, logs, and temporary folders (DO NOT UPLOAD)
 result/
+_test_real_formats/
+LMC2_Automated_Downloader_and_Full_Pipeline/
+Overleaf_MTAP_Project/
+sample_output/
+LMC2_Benchmark_Dataset/01_raw_public/
 *.docx
-Use_of_Optical_Motion_Capture_in_Sports_Science_A_Case_Study_of_Golf_Swing.pdf
+*.log
+*.bat
+*.zip
+*.tar.gz
+Use_of_Optical_Motion_Capture*.pdf
+LMC2_Benchmark_Dataset_04_*.csv
