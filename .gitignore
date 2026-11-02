@@ -20,3 +20,8 @@ LMC2_Benchmark_Dataset/01_raw_public/
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Internal review & proposal documents
+result/
+*.docx
+Use_of_Optical_Motion_Capture_in_Sports_Science_A_Case_Study_of_Golf_Swing.pdf
