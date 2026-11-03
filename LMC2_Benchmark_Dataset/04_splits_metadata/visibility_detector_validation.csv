@@ -1,0 +1,6 @@
+Evaluation_Regime,Precision_Pct,Recall_Pct,F1_Score_Pct,FPR_Pct,FNR_Pct,MPJPE_all_mm
+Overall Across All 21 Joints (SHREC'17 L4 + Dual-LMC2),96.4,95.8,96.1,1.2,4.2,5.68
+Static / Low-Velocity Hand Postures (Micro-Tremor 0.15-0.45 mm/f),96.1,95.7,95.9,1.4,4.3,4.85
+Rapid Finger Articulation (> 15 mm/frame),96.6,96.0,96.3,1.1,4.0,6.12
+"Proximal Palm & Wrist Joints (J0, J1, J5, J9, J13, J17)",97.8,97.2,97.5,0.7,2.8,4.15
+"Distal Fingertips (J4, J8, J12, J16, J20)",95.2,94.6,94.9,1.6,5.4,6.42

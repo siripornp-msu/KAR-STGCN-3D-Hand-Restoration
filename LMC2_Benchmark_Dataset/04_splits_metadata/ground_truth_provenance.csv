@@ -1,0 +1,5 @@
+Dataset,Sensor_Modality,Native_FPS,Reference_Type,Reference_Uncertainty_mm,Kabsch_Registration_Residual_mm,Simultaneous_Dropout_Exclusions
+SHREC'17,Depth Camera (Intel RealSense),30,Clean Depth Skeletons (Synthetic Held-Out Masking),1.5-2.5,N/A (Single Sensor),0 (0.0%)
+FPHA,6-DoF Magnetic Sensors + RGB-D,30,Direct 6-DoF Magnetic Sensor Ground Truth (Synthetic Missingness),< 0.5,N/A (Direct Magnetic),0 (0.0%)
+LMDHG,First-Gen Stereo IR Leap Motion (LMC1),60,Verified High-Confidence Segments (Held-Out Masking) + Raw Stream (Recognition),4.5-6.0,N/A (Single Sensor),0 (0.0%)
+Dual-LMC2 (ML2HP),Dual Orthogonal Stereo IR LMC2,120,Independent Secondary-Sensor Cross-View Reference (Sensor 2),5.2-5.3 (Central Zone),"1.84 +/- 0.42 (p50=1.76, p95=2.58, max=3.12)",9 / 714 windows (1.26%)
