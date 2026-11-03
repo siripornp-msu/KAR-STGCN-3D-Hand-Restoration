@@ -1,7 +1,7 @@
 # Independent Reproduction & Artifact Integrity Certificate (`v2.0.0`)
 
 **Repository:** `https://github.com/siripornp-msu/KAR-STGCN-3D-Hand-Restoration`  
-**Verification Timestamp (UTC):** `2026-11-03 20:12:57 UTC`  
+**Verification Timestamp (UTC):** `2026-11-03 20:26:19 UTC`  
 **Execution Environment:** `Windows 11 | Python 3.14.2`  
 **Audit Status:** `PASSED (0 DISCREPANCIES, ZERO SUBJECT LEAKAGE, BIT-EXACT CAUSALITY)`
 
@@ -44,5 +44,5 @@ To demonstrate that the reported effect sizes arise from genuine per-subject err
 | `seed_results.csv` | `16aa92c5ffb7ac04be34494110005c5683bb36ad0232cc4597f8fc02d81651be` |
 | `verify_tables.py` | `060f9f9bc9c48d827ec2b9bda887a17ea91747a95df55d108f1c90b7c6a7f417` |
 | `statistical_validation.ipynb` | `cc0de239fb9ab9a687798e1dd092648b5bd0ce433781d73d8ca18eb0a73d9679` |
-| `robustness_matrix.csv` | `5e04baeb4209c561686a9fd8ef3822ff30b868cb25309e660047c814049a0fa2` |
+| `robustness_matrix.csv` | `febe064545220f28391713b43e9712af3503c19cd2411bf43311a5c94c7fc9eb` |
 | `deployment_benchmark.csv` | `a5f6ea2b869bb44e6c7d0915763fb444ef9046b7570b3712ba277a5c3aa61101` |
