@@ -1,15 +1,10 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
+﻿__pycache__/
 *.py[cod]
 *$py.class
 .ipynb_checkpoints/
-
-# Virtual environments
 venv/
 env/
 .venv/
-
-# Internal review, proposal, presentation & temporary folders (DO NOT UPLOAD)
 result/
 _test_real_formats/
 LMC2_Automated_Downloader_and_Full_Pipeline/
@@ -18,6 +13,7 @@ sample_output/
 LMC2_Benchmark_Dataset/01_raw_public/
 *.docx
 *.pptx
+*.html
 *.log
 *.bat
 *.zip
@@ -28,10 +24,6 @@ LMC2_Benchmark_Dataset/01_raw_public/
 Use_of_Optical_Motion_Capture*.pdf
 KAR_STGCN_3D_Hand_Restoration*.pdf
 LMC2_Benchmark_Dataset_04_*.csv
-.DS_Store
-Thumbs.db
-
-# Local helper scripts & drafts
 3d_hand_restoration_figure_generator.py
 Code_Generated_Image.png
 build_overleaf_project.py
@@ -40,6 +32,8 @@ fig2_3d_hand_restoration_visual.*
 kar_bench_studio_q1_deep_dive_evaluation_suite.py
 lmc2_*.py
 prepare_and_upload_github.py
-run_true_empirical_6datasets_v2.py
+run_true_empirical_6datasets*.py
 sim_to_real_lmdhg_benchmark_runner.py
-update_github_v2.py
+update_github_v2*.py
+.DS_Store
+Thumbs.db
