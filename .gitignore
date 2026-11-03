@@ -30,3 +30,16 @@ KAR_STGCN_3D_Hand_Restoration*.pdf
 LMC2_Benchmark_Dataset_04_*.csv
 .DS_Store
 Thumbs.db
+
+# Local helper scripts & drafts
+3d_hand_restoration_figure_generator.py
+Code_Generated_Image.png
+build_overleaf_project.py
+fig1_multilevel_mpjpe_comparison.pdf
+fig2_3d_hand_restoration_visual.*
+kar_bench_studio_q1_deep_dive_evaluation_suite.py
+lmc2_*.py
+prepare_and_upload_github.py
+run_true_empirical_6datasets_v2.py
+sim_to_real_lmdhg_benchmark_runner.py
+update_github_v2.py
