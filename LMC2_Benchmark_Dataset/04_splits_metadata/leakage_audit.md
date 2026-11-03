@@ -1,0 +1,5 @@
+﻿# Causality and Zero-Leakage Audit Report (v2.0.0)
+1. **Subject-Independent Split Integrity (subject_split_manifest.csv):** Verified zero subject overlap between training, validation, and test splits across all folds on SHREC'17 (N=28), FPHA (N=6 LOSO), LMDHG (N=21), and Dual-LMC2 (N=21).
+2. **Hyperparameter Selection Isolation:** Learning rates, loss weights (lambda_bone=0.60, lambda_cls=0.50), and threshold parameters (	au_min=15.0 mm) were tuned strictly on validation subjects within the training folds.
+3. **Zero Future-Frame Leakage in System B (causality_test.py):** Future-frame perturbation tests (	' > t) confirm exact bit-level invariance (max_diff = 0.00000000 mm) across visibility inference, causal wrist anchoring, running-median palm scaling, left-padded dilated bridging, and frame-wise denormalization.
+4. **Dual-LMC2 Kabsch Calibration Isolation:** Rigid registration between Sensor 1 and Sensor 2 is computed per-sequence strictly from the initial 30 dropout-free frames without accessing test labels or held-out restoration targets.

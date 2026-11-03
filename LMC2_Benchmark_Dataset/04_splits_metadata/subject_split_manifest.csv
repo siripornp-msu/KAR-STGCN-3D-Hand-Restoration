@@ -1,0 +1,11 @@
+﻿Dataset,Protocol,Fold_ID,Train_Subjects_Count,Val_Subjects_Count,Test_Subjects_Count,Test_Subject_IDs,Train_Val_Sequences,Test_Sequences,Total_Sequences
+SHREC'17,5-Fold Subject-Independent,Fold_1,18,4,6,S01-S06,2200,600,2800
+SHREC'17,5-Fold Subject-Independent,Fold_2,18,4,6,S07-S12,2200,600,2800
+SHREC'17,5-Fold Subject-Independent,Fold_3,18,4,6,S13-S18,2200,600,2800
+SHREC'17,5-Fold Subject-Independent,Fold_4,19,4,5,S19-S23,2300,500,2800
+SHREC'17,5-Fold Subject-Independent,Fold_5,19,4,5,S24-S28,2300,500,2800
+FPHA,6-Fold Leave-One-Subject-Out (LOSO),Fold_1_to_6_Mean,4,1,1,S01_to_S06_HeldOut_Individually,979.2,195.8,1175
+LMDHG,5-Fold Subject-Independent,Fold_1,13,3,5,S01-S05,463,145,608
+LMDHG,5-Fold Subject-Independent,Fold_2_to_5_Each,14,3,4,S06-S21_Partitioned_4_Per_Fold,492.25,115.75,608
+Dual-LMC2 (ML2HP),5-Fold Subject-Independent,Fold_1,13,3,5,S01-S05,544,170,714
+Dual-LMC2 (ML2HP),5-Fold Subject-Independent,Fold_2_to_5_Each,14,3,4,S06-S21_Partitioned_4_Per_Fold,578,136,714

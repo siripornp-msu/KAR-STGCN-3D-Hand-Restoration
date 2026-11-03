@@ -1,0 +1,5 @@
+﻿Workspace_Zone_or_Regime,Evaluated_Windows,Sensor1_Natural_Dropout_Pct,Dual_Sensor_Simultaneous_Drop_Pct,Kabsch_Residual_Mean_SD_mm,Kabsch_p50_p95_Max_mm,Sensor2_Intrinsic_Noise_mm,KAR_STGCN_SysA_MPJPE_miss_mm,CTR_GCN_MPJPE_miss_mm
+Central Interaction Zone (<=150 mm from optical axis),492,14.2%,0.41%,1.52 +/- 0.31,1.48 / 2.05 / 2.42,5.20,8.64 +/- 0.39,15.85 +/- 0.74
+Oblique / Workspace Boundary Zone (>150 mm),213,28.1%,0.85%,2.48 +/- 0.54,2.41 / 3.02 / 3.12,6.45,10.42 +/- 0.49,18.92 +/- 0.91
+All Valid Cross-View Windows (Combined Unfiltered),705,18.4%,0.0% (9 simultaneous windows excluded),1.84 +/- 0.42,1.76 / 2.58 / 3.12,5.25,9.18 +/- 0.42,16.78 +/- 0.79
+High-Certainty Filtered Reference Subset (Residual <2.0 mm),540,16.1%,0.0%,1.58 +/- 0.29,1.54 / 1.92 / 1.99,5.20,8.82 +/- 0.40,16.24 +/- 0.76
