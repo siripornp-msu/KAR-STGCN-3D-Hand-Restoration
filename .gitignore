@@ -1,11 +1,15 @@
-﻿# Python cache & virtual environments
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*$py.class
 .ipynb_checkpoints/
+
+# Virtual environments
 venv/
+env/
 .venv/
 
-# Internal documents, logs, and temporary folders (DO NOT UPLOAD)
+# Internal review, proposal, presentation & temporary folders (DO NOT UPLOAD)
 result/
 _test_real_formats/
 LMC2_Automated_Downloader_and_Full_Pipeline/
@@ -13,9 +17,16 @@ Overleaf_MTAP_Project/
 sample_output/
 LMC2_Benchmark_Dataset/01_raw_public/
 *.docx
+*.pptx
 *.log
 *.bat
 *.zip
+*.tar
 *.tar.gz
+*.rar
+*.7z
 Use_of_Optical_Motion_Capture*.pdf
+KAR_STGCN_3D_Hand_Restoration*.pdf
 LMC2_Benchmark_Dataset_04_*.csv
+.DS_Store
+Thumbs.db
