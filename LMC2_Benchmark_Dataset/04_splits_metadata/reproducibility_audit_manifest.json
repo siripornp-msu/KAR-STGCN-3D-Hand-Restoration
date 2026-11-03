@@ -1,0 +1,14 @@
+{
+  "audit_version": "v5.0_round3_verified",
+  "date": "2026-11-03",
+  "p0_1_constant_ratio_check": "PASSED",
+  "p0_2_duplicate_f1_check": "PASSED",
+  "p0_3_subject_level_stats_check": "PASSED",
+  "p0_4_cross_table_sync_check": "PASSED",
+  "p0_6_ml2hp_doi_10_1038_s41597_024_03939_0": "VERIFIED (Gil-Martin, Marini, San-Segundo, & Cinque, 2024, Sci Data 11, 1102, N=21, 17 poses)",
+  "streaming_latency_ms": {
+    "p50": 0.88,
+    "p95": 0.94,
+    "p99": 0.97
+  }
+}

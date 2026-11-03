@@ -1,0 +1,10 @@
+Dataset,N_Subjects,Sample_Mean_Diff,Bootstrap_CI95_Low,Bootstrap_CI95_High,Pct_Subjects_Improved
+SHREC2017_L3,28,-8.32,-9.25,-7.42,100.0
+SHREC2017_L4,28,-10.51,-11.46,-9.5,100.0
+FPHA_L3,6,-11.28,-12.78,-9.76,100.0
+FPHA_L4,6,-14.24,-16.34,-11.56,100.0
+LMDHG_P2_ZS,21,-5.06,-5.96,-4.22,100.0
+LMDHG_P3_FT,21,-4.66,-5.44,-3.86,100.0
+Dual_LMC2_GT,21,-8.24,-9.02,-7.45,100.0
+Briareo_Auto,40,-7.28,-7.94,-6.63,100.0
+DexYCB_Grasp,10,-7.1,-8.75,-5.52,100.0
