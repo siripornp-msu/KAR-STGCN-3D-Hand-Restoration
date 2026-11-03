@@ -1,0 +1,4 @@
+study_category,condition_label,burst_frames,mask_flip_error_pct,scale_factor,SAITS_CTRGCN_MPJPE_miss_mm,KAR_STGCN_MPJPE_miss_mm,KAR_STGCN_MPJPE_all_mm,KAR_STGCN_BLCE_mm,KAR_STGCN_MacroF1_pct,restoration_failure_rate_gt25mm_pct,receptive_field_status
+Burst_Length_Sweep,Burst_05_Frames_Within_RF,5,0.0,1.0,9.85,7.12,3.42,1.95,94.85,0.0,WITHIN_25F_RF
+Burst_Length_Sweep,Burst_25_Frames_RF_Limit,25,0.0,1.0,26.8,19.85,8.12,3.54,86.15,7.8,AT_25F_RF_BOUNDARY
+Burst_Length_Sweep,Burst_40_Frames_Exceeds_RF,40,0.0,1.0,40.8,33.8,15.65,5.62,70.45,66.4,EXCEEDS_RF_MEAN_POSE_COLLAPSE
