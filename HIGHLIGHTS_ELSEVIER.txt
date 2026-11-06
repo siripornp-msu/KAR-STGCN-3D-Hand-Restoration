@@ -1,0 +1,7 @@
+Highlights
+
+• Guarded L2 palm normalization prevents scale shortcuts and division singularities.
+• KAR-STGCN couples a 25-frame dilated bridge with kinematic graph convolutions.
+• Cuts occluded 3D hand joint error by 44.0%–50.6% across four benchmark datasets.
+• Causal streaming achieves 0.93 ms latency with zero future-frame lookahead delay.
+• KAR-Bench Studio exports .bvh rigs with 1.08%–1.15% joint-angle violation rates.

@@ -67,7 +67,7 @@ response_md = """# Point-by-Point Response to Reviewers (SciSpace Final Review V
 
 **Manuscript Title:** Kinematic-Aware Spatio-Temporal Graph Convolutional Network with Visibility-Guarded $L_2$ Bone Normalization for 3D Hand Skeletal Restoration and Gesture Recognition under Optical Tracking Dropouts  
 **Author:** Siriporn Noiumkar (Department of Creative Media, Faculty of Informatics, Mahasarakham University, Thailand)  
-**Target Journal:** *Multimedia Tools and Applications* (Springer)  
+**Target Journal:** *Journal of Visual Communication and Image Representation* (Elsevier)  
 **Public Code & Audit Repository:** https://github.com/siripornp-msu/KAR-STGCN-3D-Hand-Restoration (Release Tag `v2.0.0`)
 
 ---

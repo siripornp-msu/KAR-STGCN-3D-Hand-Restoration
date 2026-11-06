@@ -10,7 +10,7 @@ Official PyTorch implementation, subject-independent cross-validation protocols 
 > **"Kinematic-Aware Spatio-Temporal Graph Convolutional Network with Visibility-Guarded L2 Bone Normalization for 3D Hand Skeletal Restoration and Gesture Recognition under Optical Tracking Dropouts"**
 > **Author:** Siriporn Noiumkar
 > *Department of Creative Media, Faculty of Informatics, Mahasarakham University, Kantarawichai District, Maha Sarakham 44150, Thailand* (`siriporn.p@msu.ac.th`)
-> *Submitted to Multimedia Tools and Applications (Springer)*
+> *Submitted to Journal of Visual Communication and Image Representation (Elsevier)*
 
 ---
 

@@ -1,7 +1,7 @@
 # Independent Reproduction & Artifact Integrity Certificate (`v2.0.0`)
 
 **Repository:** `https://github.com/siripornp-msu/KAR-STGCN-3D-Hand-Restoration`  
-**Verification Timestamp (UTC):** `2026-11-03 20:47:30 UTC`  
+**Verification Timestamp (UTC):** `2026-11-06 05:31:21 UTC`  
 **Execution Environment:** `Windows 11 | Python 3.14.2`  
 **Audit Status:** `PASSED (0 DISCREPANCIES, ZERO SUBJECT LEAKAGE, BIT-EXACT CAUSALITY)`
 
